@@ -1,0 +1,57 @@
+{
+  "organisation": "Tata Trust - Cancer Screening",
+  "catchments": [
+    {
+        "name": "Acharya Tulsi Regional",
+        "uuid": "a58cba96-14e2-402a-9832-46ac86ea247d",
+        "type": "Hospital",
+        "addressLevels": [
+          {
+              "name": "Acharya Tulsi Regional",
+              "uuid": "f3019941-9554-448d-be2b-e4441020910a",
+              "type": "Hospital",
+              "level": 1
+          }
+        ]
+    },
+    {
+        "name": "SMS Medical College",
+        "uuid": "1f3eefe4-135e-437b-b848-ed6d5aeecefb",
+        "type": "Hospital",
+        "addressLevels": [
+          {
+              "name": "SMS Medical College",
+              "uuid": "6ff62876-fa6f-44ea-8c5e-cc6ad0ab20bd",
+              "type": "Hospital",
+              "level": 1
+          }
+        ]
+    },
+    {
+        "name": "Sancheti Hospital",
+        "uuid": "427b52f6-ceec-41ff-95b3-96b19b88da9b",
+        "type": "Hospital",
+        "addressLevels": [
+          {
+              "name": "Sancheti Hospital",
+              "uuid": "642b9100-a80f-4219-b93e-ef98d0ea6acd",
+              "type": "Hospital",
+              "level": 1
+          }
+        ]
+    },
+    {
+        "name": "GBH Memorial",
+        "uuid": "45760a33-0800-4a1f-9b0e-edf3c9be30aa",
+        "type": "Hospital",
+        "addressLevels": [
+          {
+              "name": "GBH Memorial",
+              "uuid": "acb31c28-e8b2-4cc5-8a4c-e1864dd5c4a7",
+              "type": "Hospital",
+              "level": 1
+          }
+        ]
+    }
+  ]
+}
