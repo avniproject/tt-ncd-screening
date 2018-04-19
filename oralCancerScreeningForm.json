@@ -5,7 +5,7 @@
   "encounterTypes": [
     "Oral cancer screening"
   ],
-  "userUUID": "",
+  "userUUID": "5fed2907-df3a-4867-aef5-c87f4c78a31a",
   "formElementGroups": [
     {
       "uuid": "e75871fb-ede8-4360-adef-f902a5683b25",
@@ -605,10 +605,12 @@
         },
         {
           "name": "Comments",
-          "uuid": "d5f33cfe-7a1c-4e2d-b5e4-484b899a1b94",
+          "uuid": "71f2ddc5-4433-4091-8769-041c4587a9c6",
           "keyValues": [],
           "concept": {
-            "uuid": "f51dbd85-27aa-4036-88e2-f2ea64c05a2c"
+            "name": "Oral cancer screening referral comments",
+            "uuid": "6a97ae74-e61a-4ee3-967d-08ae282dec1e",
+            "dataType": "Text"
           },
           "displayOrder": 2,
           "mandatory": false

@@ -1,25 +1,25 @@
 {
-  "name": "TT Breast cancer screening form",
-  "uuid": "ac69b647-d1fc-4c7a-bfae-9f2e7fa48592",
+  "name": "TT Cervical cancer screening form",
+  "uuid": "1c331a02-5e96-4716-947a-776c89ac7253",
   "formType": "Encounter",
   "encounterTypes": [
-    "Breast cancer screening"
+    "Cervical cancer screening"
   ],
   "userUUID": "5fed2907-df3a-4867-aef5-c87f4c78a31a",
   "formElementGroups": [
     {
-      "uuid": "afed5ce3-cbc2-4a86-aa36-69a88c6d4804",
+      "uuid": "9f0b3f7f-8c63-4d4d-8dd7-bd8374b9bcc5",
       "name": "Symptoms",
       "display": "Symptoms",
       "displayOrder": 1,
       "formElements": [
         {
-          "name": "Any breast related Issue",
-          "uuid": "d0d25b79-1ad9-4adf-9fcb-c85d7d2a139d",
+          "name": "Any cervix related issue",
+          "uuid": "69c6f356-9721-46ec-b04f-6a2d526ea374",
           "type": "SingleSelect",
           "concept": {
-            "name": "Any breast related Issue",
-            "uuid": "fbf8f987-4793-4e4b-9964-d76050f044e7",
+            "name": "Any cervix related issue",
+            "uuid": "cc84bcae-f3fd-4e9e-bab0-d112da4752c1",
             "dataType": "Coded",
             "answers": [
               {
@@ -34,12 +34,12 @@
           "mandatory": true
         },
         {
-          "name": "Lump or thickening of breast",
-          "uuid": "11652de6-477a-491f-8d57-55c0568c0533",
+          "name": "Vaginal bleeding between periods",
+          "uuid": "f8a03bb9-0ff7-496a-a482-18d3b4e8e3a1",
           "type": "SingleSelect",
           "concept": {
-            "name": "Lump or thickening of breast",
-            "uuid": "78a54f4f-2f1c-4641-bf46-b2cbcadaf809",
+            "name": "Vaginal bleeding between periods",
+            "uuid": "b3fc9c2a-a182-4a19-856f-51bd4818f3ef",
             "dataType": "Coded",
             "answers": [
               {
@@ -54,12 +54,12 @@
           "mandatory": true
         },
         {
-          "name": "Change in size or shape of breast",
-          "uuid": "9c1fd594-27c7-4e7c-8e95-c405b4cc0133",
+          "name": "Post-menopausal bleeding",
+          "uuid": "ac18abda-1544-4f95-91d1-4a1e65b01e19",
           "type": "SingleSelect",
           "concept": {
-            "name": "Change in size or shape of breast",
-            "uuid": "b20b7c82-572f-4d89-b7bb-b9063a255300",
+            "name": "Post-menopausal bleeding",
+            "uuid": "75db653d-0730-44f7-b596-3347b0eb0a98",
             "dataType": "Coded",
             "answers": [
               {
@@ -74,12 +74,12 @@
           "mandatory": true
         },
         {
-          "name": "Nipple retraction or distortion",
-          "uuid": "9ee58d29-b24f-4a24-94f0-79651e044279",
+          "name": "Bleeding after sexual intercourse",
+          "uuid": "e54b978a-8b06-4971-a219-b1214eec44cd",
           "type": "SingleSelect",
           "concept": {
-            "name": "Nipple retraction or distortion",
-            "uuid": "99e63a9f-871e-41ff-881f-b0aeab1f1e3d",
+            "name": "Bleeding after sexual intercourse",
+            "uuid": "8d7b03df-ee83-4721-9bad-1fa4fcc8b995",
             "dataType": "Coded",
             "answers": [
               {
@@ -94,12 +94,12 @@
           "mandatory": true
         },
         {
-          "name": "Nipple discharge other than breast milk, including blood",
-          "uuid": "aa65144b-faf6-485b-bde3-b19183d11586",
+          "name": "Smelly vaginal discharge",
+          "uuid": "f4c99af4-d719-4e63-8502-c04d9a5c9138",
           "type": "SingleSelect",
           "concept": {
-            "name": "Nipple discharge other than breast milk, including blood",
-            "uuid": "c598ca56-ce51-43bb-a400-f7a71aa000f4",
+            "name": "Smelly vaginal discharge",
+            "uuid": "1ce2f3d0-31a7-4ae2-aaa3-2f13c5d929c9",
             "dataType": "Coded",
             "answers": [
               {
@@ -114,12 +114,12 @@
           "mandatory": true
         },
         {
-          "name": "Swelling or lump in armpit",
-          "uuid": "0d022b48-3e9b-41f6-94de-1354f10c5a6a",
+          "name": "Unusual vaginal discharge tinged with blood",
+          "uuid": "e6cd8f82-ddd1-44c5-a9e6-1b3cc58c0c9d",
           "type": "SingleSelect",
           "concept": {
-            "name": "Swelling or lump in armpit",
-            "uuid": "9d281c4b-a901-401a-9f39-4b88e70e400c",
+            "name": "Unusual vaginal discharge tinged with blood",
+            "uuid": "52a19119-1359-4821-a7e2-2df802d55fb8",
             "dataType": "Coded",
             "answers": [
               {
@@ -134,12 +134,152 @@
           "mandatory": true
         },
         {
-          "name": "Pain in breast or armpit",
-          "uuid": "8f440939-92c3-4c41-9a84-21df51fda9f6",
+          "name": "Comments",
+          "uuid": "254a9ad6-dfdd-4230-a283-770102c00441",
+          "keyValues": [],
+          "concept": {
+            "name": "Cervical screening symptom comments",
+            "uuid": "61d4f759-fa76-47b9-8e97-7e708ca359f3",
+            "dataType": "Text"
+          },
+          "displayOrder": 7,
+          "mandatory": false
+        }
+      ]
+    },
+    {
+      "uuid": "d0e3a7a4-7864-4d65-8fa0-9a7b414510fa",
+      "name": "Visual examination",
+      "display": "Visual examination",
+      "displayOrder": 2,
+      "formElements": [
+        {
+          "name": "Polyp",
+          "uuid": "7a23c133-8c39-4829-a17d-ee8534a8c225",
           "type": "SingleSelect",
           "concept": {
-            "name": "Pain in breast or armpit",
-            "uuid": "8e48f1b1-3bdd-46cf-8449-4472c879b804",
+            "name": "Polyp",
+            "uuid": "9c074075-c6b0-4a0c-bdb0-85badc9fce6e",
+            "dataType": "Coded",
+            "answers": [
+              {
+                "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
+              },
+              {
+                "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
+              }
+            ]
+          },
+          "displayOrder": 1,
+          "mandatory": true
+        },
+        {
+          "name": "Ectopy",
+          "uuid": "4fb164c7-c2ff-4033-ac87-46fdbef08ef4",
+          "type": "SingleSelect",
+          "concept": {
+            "name": "Ectopy",
+            "uuid": "ba22e695-af54-463b-9674-2ba5f68a72f1",
+            "dataType": "Coded",
+            "answers": [
+              {
+                "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
+              },
+              {
+                "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
+              }
+            ]
+          },
+          "displayOrder": 2,
+          "mandatory": true
+        },
+        {
+          "name": "Hypertrophy",
+          "uuid": "9d32a89c-cfd8-43c6-a21d-928addcd9d76",
+          "type": "SingleSelect",
+          "concept": {
+            "name": "Hypertrophy",
+            "uuid": "8cc70961-b403-4ae4-a359-e3929fc528e2",
+            "dataType": "Coded",
+            "answers": [
+              {
+                "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
+              },
+              {
+                "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
+              }
+            ]
+          },
+          "displayOrder": 3,
+          "mandatory": true
+        },
+        {
+          "name": "Bleeding on touch",
+          "uuid": "ffdd2a29-2e77-4690-833a-04c1d9d7524d",
+          "type": "SingleSelect",
+          "concept": {
+            "name": "Bleeding on touch",
+            "uuid": "f24ed041-ec5d-41dc-ba36-7117c9a69820",
+            "dataType": "Coded",
+            "answers": [
+              {
+                "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
+              },
+              {
+                "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
+              }
+            ]
+          },
+          "displayOrder": 4,
+          "mandatory": true
+        },
+        {
+          "name": "Unhealthy cervix",
+          "uuid": "47ff95a4-1105-409e-9b2e-b808399ff9db",
+          "type": "SingleSelect",
+          "concept": {
+            "name": "Unhealthy cervix",
+            "uuid": "58da06f2-01f1-4d5d-b376-07dd1b654297",
+            "dataType": "Coded",
+            "answers": [
+              {
+                "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
+              },
+              {
+                "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
+              }
+            ]
+          },
+          "displayOrder": 5,
+          "mandatory": true
+        },
+        {
+          "name": "Malignancy or growth in cervix",
+          "uuid": "fc4ab390-987f-4d12-b9e5-e84f063c473f",
+          "type": "SingleSelect",
+          "concept": {
+            "name": "Malignancy or growth in cervix",
+            "uuid": "b5b189ca-787e-40b5-94a7-253479696ed1",
+            "dataType": "Coded",
+            "answers": [
+              {
+                "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
+              },
+              {
+                "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
+              }
+            ]
+          },
+          "displayOrder": 6,
+          "mandatory": true
+        },
+        {
+          "name": "Suspicious looking",
+          "uuid": "ea6e7025-5c7d-48a1-ba13-d7297f5c8dfe",
+          "type": "SingleSelect",
+          "concept": {
+            "name": "Suspicious looking",
+            "uuid": "0ebf49f6-6775-4b70-a725-52a888c0a802",
             "dataType": "Coded",
             "answers": [
               {
@@ -154,12 +294,12 @@
           "mandatory": true
         },
         {
-          "name": "Redness or flaky skin in nipple area or breast",
-          "uuid": "d9a22650-6d93-4ddf-b85d-8ab68298c778",
+          "name": "Prolapse uterus",
+          "uuid": "f4a491cd-a22f-4ddd-b92b-e2113887bc38",
           "type": "SingleSelect",
           "concept": {
-            "name": "Redness or flaky skin in nipple area or breast",
-            "uuid": "5b91bc2d-a44f-41a6-a91a-0ee8ba09f3a6",
+            "name": "Prolapse uterus",
+            "uuid": "1d666ae8-a536-4fb3-80b8-95b9bd2ab3d2",
             "dataType": "Coded",
             "answers": [
               {
@@ -174,192 +314,32 @@
           "mandatory": true
         },
         {
-          "name": "Irritation or puckering or dimpling of breast skin",
-          "uuid": "8cc57fb4-fdc2-41e9-bcf7-393ce77156de",
-          "type": "SingleSelect",
+          "name": "Comments",
+          "uuid": "7ec19cdc-0563-42c8-93d3-0faa8eb7c172",
+          "keyValues": [],
           "concept": {
-            "name": "Irritation or puckering or dimpling of breast skin",
-            "uuid": "963eb0c8-0917-4522-b429-6cd320882e72",
-            "dataType": "Coded",
-            "answers": [
-              {
-                "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
-              },
-              {
-                "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
-              }
-            ]
+            "name": "Cervical screening visual examination comments",
+            "uuid": "982b2d75-078d-4d8f-8220-d2c703d461c6",
+            "dataType": "Text"
           },
           "displayOrder": 9,
-          "mandatory": true
-        },
-        {
-          "name": "Comments",
-          "uuid": "47869b19-e1d4-4cef-b25c-bdf7d8ddc775",
-          "keyValues": [],
-          "concept": {
-            "name": "Breast screening symptom comments",
-            "uuid": "1fbeef2a-09e3-4689-b994-a9ea3147809c",
-            "dataType": "Text"
-          },
-          "displayOrder": 10,
           "mandatory": false
         }
       ]
     },
     {
-      "uuid": "e6376d5b-7c61-4961-bd14-99e4eb7ef68f",
-      "name": "Visual examination",
-      "display": "Visual examination",
-      "displayOrder": 2,
-      "formElements": [
-        {
-          "name": "Lump in breast",
-          "uuid": "b2772287-2128-4733-b597-3940253a1215",
-          "type": "SingleSelect",
-          "concept": {
-            "name": "Lump in breast",
-            "uuid": "818d7bea-796b-4452-a5a5-b806660cbb0d",
-            "dataType": "Coded",
-            "answers": [
-              {
-                "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
-              },
-              {
-                "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
-              }
-            ]
-          },
-          "displayOrder": 1,
-          "mandatory": true
-        },
-        {
-          "name": "Swelling in armpit",
-          "uuid": "24a7fa2f-2c5c-4b2c-a5b5-57c07560ac7e",
-          "type": "SingleSelect",
-          "concept": {
-            "name": "Swelling in armpit",
-            "uuid": "324f154e-582a-4aec-9c1c-528b0d7e74c5",
-            "dataType": "Coded",
-            "answers": [
-              {
-                "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
-              },
-              {
-                "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
-              }
-            ]
-          },
-          "displayOrder": 2,
-          "mandatory": true
-        },
-        {
-          "name": "Nipple retraction or distortion",
-          "uuid": "c704c5a9-5711-4af0-b11d-53c0e1c34a08",
-          "type": "SingleSelect",
-          "concept": {
-            "name": "Nipple retraction or distortion",
-            "uuid": "b16f8065-1dee-43fc-a91c-42ae6db114b5",
-            "dataType": "Coded",
-            "answers": [
-              {
-                "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
-              },
-              {
-                "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
-              }
-            ]
-          },
-          "displayOrder": 3,
-          "mandatory": true
-        },
-        {
-          "name": "Nipple discharge",
-          "uuid": "13b7f6bf-fb3f-40a8-b5b6-d658a26dd7c6",
-          "type": "SingleSelect",
-          "concept": {
-            "name": "Nipple discharge",
-            "uuid": "1ae9b393-a06c-4259-aa89-27828424310b",
-            "dataType": "Coded",
-            "answers": [
-              {
-                "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
-              },
-              {
-                "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
-              }
-            ]
-          },
-          "displayOrder": 4,
-          "mandatory": true
-        },
-        {
-          "name": "Puckering and dimpling of breast skin",
-          "uuid": "b3525b93-e636-449b-b7cc-c0bb7c44609e",
-          "type": "SingleSelect",
-          "concept": {
-            "name": "Puckering and dimpling of breast skin",
-            "uuid": "ab6b9907-b00e-4549-9bb2-66737937cc91",
-            "dataType": "Coded",
-            "answers": [
-              {
-                "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
-              },
-              {
-                "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
-              }
-            ]
-          },
-          "displayOrder": 5,
-          "mandatory": true
-        },
-        {
-          "name": "Ulceration",
-          "uuid": "f0a05697-7e6f-4be9-97c2-62f184f017e4",
-          "type": "SingleSelect",
-          "concept": {
-            "name": "Ulceration",
-            "uuid": "4a247cbf-8ee1-4738-837d-d9c939e3d6c6",
-            "dataType": "Coded",
-            "answers": [
-              {
-                "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
-              },
-              {
-                "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
-              }
-            ]
-          },
-          "displayOrder": 6,
-          "mandatory": true
-        },
-        {
-          "name": "Comments",
-          "uuid": "ff53d0be-0fa3-4615-b44d-c645b856ac92",
-          "keyValues": [],
-          "concept": {
-            "name": "Breast visual examination comments",
-            "uuid": "d42682da-49ac-4bce-a112-5426bfb78974",
-            "dataType": "Text"
-          },
-          "displayOrder": 7,
-          "mandatory": false
-        }
-      ]
-    },
-    {
-      "uuid": "50d7ffcc-a850-4cc7-8ab6-31ee32007c37",
+      "uuid": "b160fd70-5ea6-4bb8-96d4-74631c9332f9",
       "name": "Referral",
       "display": "Referral",
       "displayOrder": 3,
       "formElements": [
         {
           "name": "Refer to specialist",
-          "uuid": "d36bd053-fbad-406a-84e1-c84779c28c18",
+          "uuid": "0cf33d7d-d607-4871-8732-8c1ebc80dab4",
           "type": "SingleSelect",
           "concept": {
-            "name": "Refer to breast cancer specialist",
-            "uuid": "0b1170d9-4ab7-48a3-81d6-468638818bba",
+            "name": "Refer to cervical cancer specialist",
+            "uuid": "62ee3416-bb1a-41f4-9106-54290b401fca",
             "dataType": "Coded",
             "answers": [
               {
@@ -375,11 +355,11 @@
         },
         {
           "name": "Comments",
-          "uuid": "ef13bd9b-560b-4844-9f84-333d02d5b926",
+          "uuid": "65b58128-d895-46a9-be5c-a62bce774f76",
           "keyValues": [],
           "concept": {
-            "name": "Breast cancer screening referral comments",
-            "uuid": "eaa0ef8f-f3b0-4260-9cbc-52d3fb3b4704",
+            "name": "Cervical cancer screening referral comments",
+            "uuid": "d6bb59c7-8d46-4649-8a3f-5948709a59ae",
             "dataType": "Text"
           },
           "displayOrder": 2,
