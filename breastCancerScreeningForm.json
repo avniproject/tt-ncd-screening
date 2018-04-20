@@ -78,7 +78,7 @@
           "uuid": "9ee58d29-b24f-4a24-94f0-79651e044279",
           "type": "SingleSelect",
           "concept": {
-            "name": "Nipple retraction or distortion",
+            "name": "Symptom of nipple retraction or distortion",
             "uuid": "99e63a9f-871e-41ff-881f-b0aeab1f1e3d",
             "dataType": "Coded",
             "answers": [

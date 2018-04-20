@@ -1,7 +1,9 @@
 {
   "organisationName": "Tata Trust - NCD Screening",
   "encounterTypes": [
-    "Breast Cancer Screening"
+    "Breast cancer screening",
+    "Cervical cancer screening",
+    "Oral cancer screening"
   ],
   "programs": []
 }

@@ -137,6 +137,54 @@
           "mandatory": true
         }
       ]
+    },
+    {
+      "uuid": "8749691b-db18-490b-b4f1-74c92812b3eb",
+      "name": "Personal details",
+      "display": "Personal details",
+      "displayOrder": 2,
+      "formElements": [
+        {
+          "name": "Marital status",
+          "uuid": "17b4b57e-92b1-421b-88f6-1944a0a66564",
+          "keyValues": [],
+          "concept": {
+            "uuid": "aa6687c9-ba4d-49a3-9b3e-bba266eb6f32"
+          },
+          "displayOrder": 1,
+          "mandatory": true
+        },
+        {
+          "name": "Identity proof",
+          "uuid": "9502e19a-0d7c-4f6b-a27c-15277971d873",
+          "keyValues": [],
+          "concept": {
+            "uuid": "4a88051c-3723-4a62-8606-c959312906c8"
+          },
+          "displayOrder": 2,
+          "mandatory": true
+        },
+        {
+          "name": "Identification number",
+          "uuid": "b9044ec2-adfb-4259-af85-b0dbe9e971aa",
+          "keyValues": [],
+          "concept": {
+            "uuid": "a82d1ed8-7e4d-4994-afff-be252f1b608e"
+          },
+          "displayOrder": 3,
+          "mandatory": false
+        },
+        {
+          "name": "Mobile number",
+          "uuid": "8f7e1348-9546-48cc-b3b0-6325c7d625af",
+          "keyValues": [],
+          "concept": {
+            "uuid": "1e4f068d-24c0-4fd3-918e-743cd084c0c8"
+          },
+          "displayOrder": 4,
+          "mandatory": false
+        }
+      ]
     }
   ]
 }
