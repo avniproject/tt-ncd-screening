@@ -147,6 +147,7 @@
         {
           "name": "Marital status",
           "uuid": "17b4b57e-92b1-421b-88f6-1944a0a66564",
+          "type": "SingleSelect",
           "keyValues": [],
           "concept": {
             "uuid": "aa6687c9-ba4d-49a3-9b3e-bba266eb6f32"
@@ -157,6 +158,7 @@
         {
           "name": "Identity proof",
           "uuid": "9502e19a-0d7c-4f6b-a27c-15277971d873",
+          "type": "SingleSelect",
           "keyValues": [],
           "concept": {
             "uuid": "4a88051c-3723-4a62-8606-c959312906c8"
