@@ -159,7 +159,14 @@
           "name": "Identity proof",
           "uuid": "9502e19a-0d7c-4f6b-a27c-15277971d873",
           "type": "SingleSelect",
-          "keyValues": [],
+          "keyValues": [
+            {
+              "key": "ExcludedAnswers",
+              "value": [
+                "Aadhaar"
+              ]
+            }
+          ],
           "concept": {
             "uuid": "4a88051c-3723-4a62-8606-c959312906c8"
           },

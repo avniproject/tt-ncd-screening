@@ -1,0 +1,50 @@
+[
+  {
+    "username": "acharya001",
+    "password": "password",
+    "catchment_id": "16",
+    "email": "viveks+tatatrust@samanvayfoundation.org",
+    "phone_number": "+919009009001",
+    "org_name": "Tata Trust - NCD Screening",
+    "org_id": "4",
+    "is_user": "true",
+    "is_admin": "false",
+    "is_org_admin": "false"
+  },
+  {
+    "username": "smsmed001",
+    "password": "password",
+    "catchment_id": "16",
+    "email": "viveks+tatatrust@samanvayfoundation.org",
+    "phone_number": "+919009009001",
+    "org_name": "Tata Trust - NCD Screening",
+    "org_id": "4",
+    "is_user": "true",
+    "is_admin": "false",
+    "is_org_admin": "false"
+  },
+  {
+    "username": "sancheti001",
+    "password": "password",
+    "catchment_id": "16",
+    "email": "viveks+tatatrust@samanvayfoundation.org",
+    "phone_number": "+919009009001",
+    "org_name": "Tata Trust - NCD Screening",
+    "org_id": "4",
+    "is_user": "true",
+    "is_admin": "false",
+    "is_org_admin": "false"
+  },
+  {
+    "username": "gbhmem001",
+    "password": "password",
+    "catchment_id": "16",
+    "email": "viveks+tatatrust@samanvayfoundation.org",
+    "phone_number": "+919009009001",
+    "org_name": "Tata Trust - NCD Screening",
+    "org_id": "4",
+    "is_user": "true",
+    "is_admin": "false",
+    "is_org_admin": "false"
+  }
+]
