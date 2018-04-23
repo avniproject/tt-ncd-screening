@@ -22,6 +22,9 @@ su:=$(shell id -un)
 create_org:
 	psql -U$(su) openchs < create_organisation.sql
 
+deploy_common_concept:
+	curl -X POST $(server):$(port)/concepts -d @../openchs-client/packages/openchs-health-modules/health_modules/commonConcepts.json -H "Content-Type: application/json" -H "ORGANISATION-NAME: OpenCHS" -H "AUTH-TOKEN: $(token)"
+
 ## <refdata>
 deploy_refdata: ## Creates reference data by POSTing it to the server
 	curl -X POST $(server):$(port)/catchments -d @catchments.json -H "Content-Type: application/json" 	-H "ORGANISATION-NAME: Tata Trust - NCD Screening"  -H "AUTH-TOKEN: $(token)"
