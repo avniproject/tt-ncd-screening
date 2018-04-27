@@ -1,50 +1,54 @@
 [
   {
     "username": "acharya001",
-    "password": "password",
-    "catchment_id": "16",
-    "email": "viveks+tatatrust@samanvayfoundation.org",
-    "phone_number": "+919009009001",
+    "password": "",
+    "catchment_id": "",
+    "email": "cancerout.acharyatulsi@gmail.com",
+    "phone_number": "+919511352842",
     "org_name": "Tata Trust - NCD Screening",
     "org_id": "4",
     "is_user": "true",
     "is_admin": "false",
-    "is_org_admin": "false"
+    "is_org_admin": "false",
+    "comment": "Bikaner"
   },
   {
     "username": "smsmed001",
-    "password": "password",
-    "catchment_id": "16",
-    "email": "viveks+tatatrust@samanvayfoundation.org",
-    "phone_number": "+919009009001",
+    "password": "",
+    "catchment_id": "",
+    "email": "cancerout.jaipursms1@gmail.com",
+    "phone_number": "+919521619985",
     "org_name": "Tata Trust - NCD Screening",
     "org_id": "4",
     "is_user": "true",
     "is_admin": "false",
-    "is_org_admin": "false"
+    "is_org_admin": "false",
+    "comment": "Jaipur"
   },
   {
     "username": "sancheti001",
-    "password": "password",
-    "catchment_id": "16",
-    "email": "viveks+tatatrust@samanvayfoundation.org",
-    "phone_number": "+919009009001",
+    "password": "",
+    "catchment_id": "",
+    "email": "cancerout.sanchetee@gmail.com",
+    "phone_number": "+917425996331",
     "org_name": "Tata Trust - NCD Screening",
     "org_id": "4",
     "is_user": "true",
     "is_admin": "false",
-    "is_org_admin": "false"
+    "is_org_admin": "false",
+    "comment": "Jodhpur"
   },
   {
     "username": "gbhmem001",
-    "password": "password",
-    "catchment_id": "16",
-    "email": "viveks+tatatrust@samanvayfoundation.org",
-    "phone_number": "+919009009001",
+    "password": "",
+    "catchment_id": "",
+    "email": "cancerout.gbh@gmail.com",
+    "phone_number": "+919636886396",
     "org_name": "Tata Trust - NCD Screening",
     "org_id": "4",
     "is_user": "true",
     "is_admin": "false",
-    "is_org_admin": "false"
+    "is_org_admin": "false",
+    "comment": "Udaipur"
   }
 ]

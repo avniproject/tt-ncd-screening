@@ -12,7 +12,8 @@
               "type": "Hospital",
               "level": 1
           }
-        ]
+        ],
+      "comment": "Acharya Tulsi Regional Cancer Treatment and Research Institute, P. B. M Hospital Campus, S.P. Medical College, Bikaner, Rajasthan 334 003"
     },
     {
         "name": "SMS Medical College",
@@ -25,7 +26,8 @@
               "type": "Hospital",
               "level": 1
           }
-        ]
+        ],
+      "comment": "SMS Medical College, Jawaharlal Nehru Marg, Gangawal Park, Jaipur 302 004, Rajasthan"
     },
     {
         "name": "Sancheti Hospital",
@@ -38,7 +40,8 @@
               "type": "Hospital",
               "level": 1
           }
-        ]
+        ],
+      "comment": "Sancheti Hospital & Cancer Institute, Pal Link Road, Opposite Kamla Nehru Chest Hospital, Baldev Nagar, Jodhpur 342 008, Rajasthan"
     },
     {
         "name": "GBH Memorial",
@@ -51,7 +54,8 @@
               "type": "Hospital",
               "level": 1
           }
-        ]
+        ],
+      "comment": "GBH Memorial Cancer Hospital, 101 Kothi Bagh, Bhattji Ki Bari, Meera Girls College Road, Udaipur, Rajasthan 313 001"
     }
   ]
 }
