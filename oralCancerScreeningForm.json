@@ -378,10 +378,71 @@
       ]
     },
     {
+      "uuid": "33cbfaca-0e4f-4f3f-a629-5b39f9495056",
+      "name": "Smoking habit",
+      "display": "Smoking habit",
+      "displayOrder": 4,
+      "formElements": [
+        {
+          "name": "Smoking",
+          "uuid": "c3857044-90b1-4778-a21a-8d4a2360ef96",
+          "type": "SingleSelect",
+          "concept": {
+            "name": "Smoking habit",
+            "uuid": "a757d222-e7b1-45e8-bef2-c2ee8d17b3e7",
+            "dataType": "Coded",
+            "answers": [
+              {
+                "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
+              },
+              {
+                "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
+              }
+            ]
+          },
+          "displayOrder": 1,
+          "mandatory": true
+        },
+        {
+          "name": "Duration",
+          "uuid": "166a3dee-b1eb-49d5-95cd-b662210d89db",
+          "keyValues": [
+            {
+              "key": "durationOptions",
+              "value": [
+                "months",
+                "years"
+              ]
+            }
+          ],
+          "concept": {
+            "name": "Smoking habit duration",
+            "uuid": "60c9d36c-b34d-49c6-bc74-361ab12a4ded",
+            "dataType": "Date"
+          },
+          "displayOrder": 2,
+          "mandatory": false
+        },
+        {
+          "name": "Frequency",
+          "uuid": "9297cf14-e6e3-427e-9e75-7707b6e797b8",
+          "keyValues": [],
+          "concept": {
+            "name": "Smoking frequency",
+            "uuid": "b882b537-3cc3-4311-a203-eef5b49b8c5d",
+            "dataType": "Numeric",
+            "unit": "times/week"
+          },
+          "displayOrder": 3,
+          "mandatory": false
+        }
+      ]
+    },
+    {
       "uuid": "1fd2372e-9d11-4d0e-a11f-7caec9f48351",
       "name": "Visual examination",
       "display": "Visual examination",
-      "displayOrder": 4,
+      "displayOrder": 5,
       "formElements": [
         {
           "name": "Abnormality",
@@ -581,7 +642,7 @@
       "uuid": "785d4027-5754-4ddd-8265-9fb588be7ea6",
       "name": "Referral",
       "display": "Referral",
-      "displayOrder": 5,
+      "displayOrder": 6,
       "formElements": [
         {
           "name": "Refer to specialist",
