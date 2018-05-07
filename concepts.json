@@ -161,6 +161,12 @@
   },
   {
     "name": "Udaipur",
-    "uuid": "ef44ca64-c9d2-4e66-a5e3-7ffbe6af7fe2"
+    "uuid": "ef44ca64-c9d2-4e66-a5e3-7ffbe6af7fe2",
+    "dataType": "NA"
+  },
+  {
+    "name": "Others",
+    "uuid": "3e3d6791-1f0c-4015-98dc-8a2b6713b27b",
+    "dataType": "NA"
   }
 ]
