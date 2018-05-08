@@ -168,5 +168,38 @@
     "name": "Others",
     "uuid": "3e3d6791-1f0c-4015-98dc-8a2b6713b27b",
     "dataType": "NA"
+  },
+  {
+    "name": "Suspected",
+    "uuid": "8f607367-cd82-457d-9cd1-7b7a21c1327b",
+    "dataType": "NA"
+  },
+  {
+    "name": "Not applicable",
+    "uuid": "5575ce2f-0d0e-4d90-a787-867cf10fc04a",
+    "dataType": "NA"
+  },
+  {
+    "name": "Smoking frequency",
+    "uuid": "b882b537-3cc3-4311-a203-eef5b49b8c5d",
+    "dataType": "Numeric",
+    "unit": "times/day"
+  },
+  {
+    "name": "Result of screening",
+    "uuid": "104d3830-02fa-4cf5-899a-dcc135c77d14",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "8f607367-cd82-457d-9cd1-7b7a21c1327b"
+      },
+      {
+        "uuid": "ba43b326-18a1-4f8d-ad04-29b0371461e0",
+        "comment": "Normal"
+      },
+      {
+        "uuid": "5575ce2f-0d0e-4d90-a787-867cf10fc04a"
+      }
+    ]
   }
 ]

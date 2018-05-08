@@ -428,10 +428,7 @@
           "uuid": "9297cf14-e6e3-427e-9e75-7707b6e797b8",
           "keyValues": [],
           "concept": {
-            "name": "Smoking frequency",
-            "uuid": "b882b537-3cc3-4311-a203-eef5b49b8c5d",
-            "dataType": "Numeric",
-            "unit": "times/week"
+            "uuid": "b882b537-3cc3-4311-a203-eef5b49b8c5d"
           },
           "displayOrder": 3,
           "mandatory": false
@@ -640,8 +637,8 @@
     },
     {
       "uuid": "785d4027-5754-4ddd-8265-9fb588be7ea6",
-      "name": "Referral",
-      "display": "Referral",
+      "name": "Referral / Result",
+      "display": "Referral / Result",
       "displayOrder": 6,
       "formElements": [
         {
@@ -675,6 +672,17 @@
           },
           "displayOrder": 2,
           "mandatory": false
+        },
+        {
+          "name": "Result of screening",
+          "uuid": "09934975-a90b-451e-b9d7-48f5baa5739f",
+          "type": "SingleSelect",
+          "keyValues": [],
+          "concept": {
+            "uuid": "104d3830-02fa-4cf5-899a-dcc135c77d14"
+          },
+          "displayOrder": 3,
+          "mandatory": true
         }
       ]
     }

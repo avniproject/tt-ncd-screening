@@ -384,6 +384,17 @@
           },
           "displayOrder": 2,
           "mandatory": false
+        },
+        {
+          "name": "Result of screening",
+          "uuid": "430c4873-f8b8-4969-a6f3-9f415d3cdfc7",
+          "type": "SingleSelect",
+          "keyValues": [],
+          "concept": {
+            "uuid": "104d3830-02fa-4cf5-899a-dcc135c77d14"
+          },
+          "displayOrder": 3,
+          "mandatory": true
         }
       ]
     }
