@@ -294,7 +294,7 @@
             }
           ],
           "concept": {
-            "name": "Tobacco habit duration",
+            "name": "Tobacco habit since",
             "uuid": "8d21662d-118d-4706-96ba-dbad0d5818d9",
             "dataType": "Date"
           },
@@ -355,7 +355,7 @@
             }
           ],
           "concept": {
-            "name": "Alcohol habit duration",
+            "name": "Alcohol habit since",
             "uuid": "a7f7f1ae-721a-4266-a9c9-cc82c1319ad3",
             "dataType": "Date"
           },
@@ -416,7 +416,7 @@
             }
           ],
           "concept": {
-            "name": "Smoking habit duration",
+            "name": "Smoking habit since",
             "uuid": "60c9d36c-b34d-49c6-bc74-361ab12a4ded",
             "dataType": "Date"
           },
