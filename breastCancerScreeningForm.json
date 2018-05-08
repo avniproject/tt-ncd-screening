@@ -391,7 +391,8 @@
           "type": "SingleSelect",
           "keyValues": [],
           "concept": {
-            "uuid": "104d3830-02fa-4cf5-899a-dcc135c77d14"
+            "comment": "Result of breast cancer screening",
+            "uuid": "8f607367-cd82-457d-9cd1-7b7a21c1327b"
           },
           "displayOrder": 3,
           "mandatory": true

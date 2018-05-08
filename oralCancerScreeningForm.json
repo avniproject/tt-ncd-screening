@@ -679,6 +679,7 @@
           "type": "SingleSelect",
           "keyValues": [],
           "concept": {
+            "comment": "Result of oral cancer screening",
             "uuid": "104d3830-02fa-4cf5-899a-dcc135c77d14"
           },
           "displayOrder": 3,

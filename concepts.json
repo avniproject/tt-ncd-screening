@@ -186,8 +186,42 @@
     "unit": "times/day"
   },
   {
-    "name": "Result of screening",
+    "name": "Result of oral cancer screening",
     "uuid": "104d3830-02fa-4cf5-899a-dcc135c77d14",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "8f607367-cd82-457d-9cd1-7b7a21c1327b"
+      },
+      {
+        "uuid": "ba43b326-18a1-4f8d-ad04-29b0371461e0",
+        "comment": "Normal"
+      },
+      {
+        "uuid": "5575ce2f-0d0e-4d90-a787-867cf10fc04a"
+      }
+    ]
+  },
+  {
+    "name": "Result of breast cancer screening",
+    "uuid": "b6c6b6d5-9960-48ef-a230-9e28326a9492",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "8f607367-cd82-457d-9cd1-7b7a21c1327b"
+      },
+      {
+        "uuid": "ba43b326-18a1-4f8d-ad04-29b0371461e0",
+        "comment": "Normal"
+      },
+      {
+        "uuid": "5575ce2f-0d0e-4d90-a787-867cf10fc04a"
+      }
+    ]
+  },
+  {
+    "name": "Result of cervical cancer screening",
+    "uuid": "83825284-e28e-41a9-b4a5-d1692c9a2626",
     "dataType": "Coded",
     "answers": [
       {

@@ -371,7 +371,8 @@
           "type": "SingleSelect",
           "keyValues": [],
           "concept": {
-            "uuid": "104d3830-02fa-4cf5-899a-dcc135c77d14"
+            "comment": "Result of cervical cancer screening",
+            "uuid": "83825284-e28e-41a9-b4a5-d1692c9a2626"
           },
           "displayOrder": 3,
           "mandatory": true
