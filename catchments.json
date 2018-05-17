@@ -56,6 +56,76 @@
           }
         ],
       "comment": "GBH Memorial Cancer Hospital, 101 Kothi Bagh, Bhattji Ki Bari, Meera Girls College Road, Udaipur, Rajasthan 313 001"
+    },
+    {
+      "name": "New Medical College Hospital",
+      "uuid": "60080f97-a95a-4fef-a7f8-51dd4185fa1c",
+      "type": "Hospital",
+      "addressLevels": [
+        {
+          "name": "New Medical College Hospital",
+          "uuid": "f6e96221-99e1-4b95-b98b-83321dc4e6a6",
+          "type": "Hospital",
+          "level": 1
+        }
+      ],
+      "comment": "New Medical College Hospital, Kota"
+    },
+    {
+      "name": "Maharao Bhim Singh Hospital",
+      "uuid": "d252a2d1-b188-4c15-8c67-b5d583ad4bc2",
+      "type": "Hospital",
+      "addressLevels": [
+        {
+          "name": "Maharao Bhim Singh Hospital",
+          "uuid": "89b34fe8-fc68-4b19-a539-3c9529622aaf",
+          "type": "Hospital",
+          "level": 1
+        }
+      ],
+      "comment": "Maharao Bhim Singh Hospital, Kota"
+    },
+    {
+      "name": "Jhalawar Medical College",
+      "uuid": "c1451600-c975-4abf-bd42-fc7c13e8aa7b",
+      "type": "Hospital",
+      "addressLevels": [
+        {
+          "name": "Jhalawar Medical College",
+          "uuid": "28513a14-3b4a-4be1-ae84-3f34a4d30a00",
+          "type": "Hospital",
+          "level": 1
+        }
+      ],
+      "comment": "Jhalawar Medical College, Jhalawar"
+    },
+    {
+      "name": "RNT",
+      "uuid": "3ecc0ed0-e585-4e86-803f-b3cf7ec6f695",
+      "type": "Hospital",
+      "addressLevels": [
+        {
+          "name": "RNT",
+          "uuid": "47e5a4c8-4ffb-4d2f-836b-c9e41e957be4",
+          "type": "Hospital",
+          "level": 1
+        }
+      ],
+      "comment": "RNT, Udaipur"
+    },
+    {
+      "name": "JLN Hospital",
+      "uuid": "7e5fdd10-7ecf-4e65-a292-9fa5c484c332",
+      "type": "Hospital",
+      "addressLevels": [
+        {
+          "name": "JLN Hospital",
+          "uuid": "6aae4733-8b18-4688-b006-cb01b7b979db",
+          "type": "Hospital",
+          "level": 1
+        }
+      ],
+      "comment": "JLN Hospital, Ajmer"
     }
   ]
 }
