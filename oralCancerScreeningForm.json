@@ -2,9 +2,6 @@
   "name": "TT Oral cancer screening form",
   "uuid": "d993c0b7-cc8e-47a4-b979-a874fa1cd41b",
   "formType": "Encounter",
-  "encounterTypes": [
-    "Oral cancer screening"
-  ],
   "userUUID": "5fed2907-df3a-4867-aef5-c87f4c78a31a",
   "formElementGroups": [
     {

@@ -1,0 +1,14 @@
+[
+  {
+    "uuid": "21a5d8e8-7d36-4873-98b1-25cfd080f1bf",
+    "name": "Cervical cancer screening"
+  },
+  {
+    "uuid": "684fa56e-ff92-4585-a60a-f1e34f61d864",
+    "name": "Breast cancer screening"
+  },
+  {
+    "uuid": "7bbbec20-7963-4236-b1ad-dfcbcf0a4eb5",
+    "name": "Oral cancer screening"
+  }
+]

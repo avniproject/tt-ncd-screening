@@ -2,9 +2,6 @@
   "name": "TT Cervical cancer screening form",
   "uuid": "1c331a02-5e96-4716-947a-776c89ac7253",
   "formType": "Encounter",
-  "encounterTypes": [
-    "Cervical cancer screening"
-  ],
   "userUUID": "5fed2907-df3a-4867-aef5-c87f4c78a31a",
   "formElementGroups": [
     {
