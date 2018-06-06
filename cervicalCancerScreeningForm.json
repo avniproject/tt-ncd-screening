@@ -15,17 +15,7 @@
           "uuid": "69c6f356-9721-46ec-b04f-6a2d526ea374",
           "type": "SingleSelect",
           "concept": {
-            "name": "Any cervix related issue",
-            "uuid": "cc84bcae-f3fd-4e9e-bab0-d112da4752c1",
-            "dataType": "Coded",
-            "answers": [
-              {
-                "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
-              },
-              {
-                "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
-              }
-            ]
+            "uuid": "cc84bcae-f3fd-4e9e-bab0-d112da4752c1"
           },
           "displayOrder": 1,
           "mandatory": true
@@ -35,17 +25,7 @@
           "uuid": "f8a03bb9-0ff7-496a-a482-18d3b4e8e3a1",
           "type": "SingleSelect",
           "concept": {
-            "name": "Vaginal bleeding between periods",
-            "uuid": "b3fc9c2a-a182-4a19-856f-51bd4818f3ef",
-            "dataType": "Coded",
-            "answers": [
-              {
-                "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
-              },
-              {
-                "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
-              }
-            ]
+            "uuid": "b3fc9c2a-a182-4a19-856f-51bd4818f3ef"
           },
           "displayOrder": 2,
           "mandatory": true
@@ -55,17 +35,7 @@
           "uuid": "ac18abda-1544-4f95-91d1-4a1e65b01e19",
           "type": "SingleSelect",
           "concept": {
-            "name": "Post-menopausal bleeding",
-            "uuid": "75db653d-0730-44f7-b596-3347b0eb0a98",
-            "dataType": "Coded",
-            "answers": [
-              {
-                "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
-              },
-              {
-                "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
-              }
-            ]
+            "uuid": "75db653d-0730-44f7-b596-3347b0eb0a98"
           },
           "displayOrder": 3,
           "mandatory": true
@@ -75,17 +45,7 @@
           "uuid": "e54b978a-8b06-4971-a219-b1214eec44cd",
           "type": "SingleSelect",
           "concept": {
-            "name": "Bleeding after sexual intercourse",
-            "uuid": "8d7b03df-ee83-4721-9bad-1fa4fcc8b995",
-            "dataType": "Coded",
-            "answers": [
-              {
-                "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
-              },
-              {
-                "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
-              }
-            ]
+            "uuid": "8d7b03df-ee83-4721-9bad-1fa4fcc8b995"
           },
           "displayOrder": 4,
           "mandatory": true
@@ -95,17 +55,7 @@
           "uuid": "f4c99af4-d719-4e63-8502-c04d9a5c9138",
           "type": "SingleSelect",
           "concept": {
-            "name": "Smelly vaginal discharge",
-            "uuid": "1ce2f3d0-31a7-4ae2-aaa3-2f13c5d929c9",
-            "dataType": "Coded",
-            "answers": [
-              {
-                "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
-              },
-              {
-                "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
-              }
-            ]
+            "uuid": "1ce2f3d0-31a7-4ae2-aaa3-2f13c5d929c9"
           },
           "displayOrder": 5,
           "mandatory": true
@@ -115,17 +65,7 @@
           "uuid": "e6cd8f82-ddd1-44c5-a9e6-1b3cc58c0c9d",
           "type": "SingleSelect",
           "concept": {
-            "name": "Unusual vaginal discharge tinged with blood",
-            "uuid": "52a19119-1359-4821-a7e2-2df802d55fb8",
-            "dataType": "Coded",
-            "answers": [
-              {
-                "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
-              },
-              {
-                "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
-              }
-            ]
+            "uuid": "52a19119-1359-4821-a7e2-2df802d55fb8"
           },
           "displayOrder": 6,
           "mandatory": true
@@ -135,9 +75,7 @@
           "uuid": "254a9ad6-dfdd-4230-a283-770102c00441",
           "keyValues": [],
           "concept": {
-            "name": "Cervical screening symptom comments",
-            "uuid": "61d4f759-fa76-47b9-8e97-7e708ca359f3",
-            "dataType": "Text"
+            "uuid": "61d4f759-fa76-47b9-8e97-7e708ca359f3"
           },
           "displayOrder": 7,
           "mandatory": false
@@ -155,17 +93,7 @@
           "uuid": "7a23c133-8c39-4829-a17d-ee8534a8c225",
           "type": "SingleSelect",
           "concept": {
-            "name": "Polyp",
-            "uuid": "9c074075-c6b0-4a0c-bdb0-85badc9fce6e",
-            "dataType": "Coded",
-            "answers": [
-              {
-                "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
-              },
-              {
-                "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
-              }
-            ]
+            "uuid": "9c074075-c6b0-4a0c-bdb0-85badc9fce6e"
           },
           "displayOrder": 1,
           "mandatory": true
@@ -175,17 +103,7 @@
           "uuid": "4fb164c7-c2ff-4033-ac87-46fdbef08ef4",
           "type": "SingleSelect",
           "concept": {
-            "name": "Ectopy",
-            "uuid": "ba22e695-af54-463b-9674-2ba5f68a72f1",
-            "dataType": "Coded",
-            "answers": [
-              {
-                "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
-              },
-              {
-                "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
-              }
-            ]
+            "uuid": "ba22e695-af54-463b-9674-2ba5f68a72f1"
           },
           "displayOrder": 2,
           "mandatory": true
@@ -195,17 +113,7 @@
           "uuid": "9d32a89c-cfd8-43c6-a21d-928addcd9d76",
           "type": "SingleSelect",
           "concept": {
-            "name": "Hypertrophy",
-            "uuid": "8cc70961-b403-4ae4-a359-e3929fc528e2",
-            "dataType": "Coded",
-            "answers": [
-              {
-                "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
-              },
-              {
-                "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
-              }
-            ]
+            "uuid": "8cc70961-b403-4ae4-a359-e3929fc528e2"
           },
           "displayOrder": 3,
           "mandatory": true
@@ -215,17 +123,7 @@
           "uuid": "ffdd2a29-2e77-4690-833a-04c1d9d7524d",
           "type": "SingleSelect",
           "concept": {
-            "name": "Bleeding on touch",
-            "uuid": "f24ed041-ec5d-41dc-ba36-7117c9a69820",
-            "dataType": "Coded",
-            "answers": [
-              {
-                "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
-              },
-              {
-                "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
-              }
-            ]
+            "uuid": "f24ed041-ec5d-41dc-ba36-7117c9a69820"
           },
           "displayOrder": 4,
           "mandatory": true
@@ -235,17 +133,7 @@
           "uuid": "47ff95a4-1105-409e-9b2e-b808399ff9db",
           "type": "SingleSelect",
           "concept": {
-            "name": "Unhealthy cervix",
-            "uuid": "58da06f2-01f1-4d5d-b376-07dd1b654297",
-            "dataType": "Coded",
-            "answers": [
-              {
-                "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
-              },
-              {
-                "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
-              }
-            ]
+            "uuid": "58da06f2-01f1-4d5d-b376-07dd1b654297"
           },
           "displayOrder": 5,
           "mandatory": true
@@ -255,17 +143,7 @@
           "uuid": "fc4ab390-987f-4d12-b9e5-e84f063c473f",
           "type": "SingleSelect",
           "concept": {
-            "name": "Malignancy or growth in cervix",
-            "uuid": "b5b189ca-787e-40b5-94a7-253479696ed1",
-            "dataType": "Coded",
-            "answers": [
-              {
-                "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
-              },
-              {
-                "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
-              }
-            ]
+            "uuid": "b5b189ca-787e-40b5-94a7-253479696ed1"
           },
           "displayOrder": 6,
           "mandatory": true
@@ -275,17 +153,7 @@
           "uuid": "ea6e7025-5c7d-48a1-ba13-d7297f5c8dfe",
           "type": "SingleSelect",
           "concept": {
-            "name": "Suspicious looking",
-            "uuid": "0ebf49f6-6775-4b70-a725-52a888c0a802",
-            "dataType": "Coded",
-            "answers": [
-              {
-                "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
-              },
-              {
-                "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
-              }
-            ]
+            "uuid": "0ebf49f6-6775-4b70-a725-52a888c0a802"
           },
           "displayOrder": 7,
           "mandatory": true
@@ -295,17 +163,7 @@
           "uuid": "f4a491cd-a22f-4ddd-b92b-e2113887bc38",
           "type": "SingleSelect",
           "concept": {
-            "name": "Prolapse uterus",
-            "uuid": "1d666ae8-a536-4fb3-80b8-95b9bd2ab3d2",
-            "dataType": "Coded",
-            "answers": [
-              {
-                "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
-              },
-              {
-                "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
-              }
-            ]
+            "uuid": "1d666ae8-a536-4fb3-80b8-95b9bd2ab3d2"
           },
           "displayOrder": 8,
           "mandatory": true
@@ -315,9 +173,7 @@
           "uuid": "7ec19cdc-0563-42c8-93d3-0faa8eb7c172",
           "keyValues": [],
           "concept": {
-            "name": "Cervical screening visual examination comments",
-            "uuid": "982b2d75-078d-4d8f-8220-d2c703d461c6",
-            "dataType": "Text"
+            "uuid": "982b2d75-078d-4d8f-8220-d2c703d461c6"
           },
           "displayOrder": 9,
           "mandatory": false
@@ -335,17 +191,7 @@
           "uuid": "0cf33d7d-d607-4871-8732-8c1ebc80dab4",
           "type": "SingleSelect",
           "concept": {
-            "name": "Refer to cervical cancer specialist",
-            "uuid": "62ee3416-bb1a-41f4-9106-54290b401fca",
-            "dataType": "Coded",
-            "answers": [
-              {
-                "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
-              },
-              {
-                "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
-              }
-            ]
+            "uuid": "62ee3416-bb1a-41f4-9106-54290b401fca"
           },
           "displayOrder": 1,
           "mandatory": true
@@ -355,9 +201,7 @@
           "uuid": "65b58128-d895-46a9-be5c-a62bce774f76",
           "keyValues": [],
           "concept": {
-            "name": "Cervical cancer screening referral comments",
-            "uuid": "d6bb59c7-8d46-4649-8a3f-5948709a59ae",
-            "dataType": "Text"
+            "uuid": "d6bb59c7-8d46-4649-8a3f-5948709a59ae"
           },
           "displayOrder": 2,
           "mandatory": false

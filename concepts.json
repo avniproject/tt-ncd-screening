@@ -235,5 +235,914 @@
         "uuid": "5575ce2f-0d0e-4d90-a787-867cf10fc04a"
       }
     ]
+  },
+  {
+    "name": "City",
+    "uuid": "ac89d406-9630-4d00-8b11-c45fc0cd90ed",
+    "dataType": "Text"
+  },
+  {
+    "name": "Rajasthan District",
+    "uuid": "02ba50a7-8f5d-42f7-ae38-d29bf2e5bfa3",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "d1bcefcd-918e-40b4-a03c-0a29962d503d"
+      },
+      {
+        "uuid": "897a5dbc-95c8-4743-94c2-0e8d21e28c53"
+      },
+      {
+        "uuid": "3cd4d018-e6c5-4509-b871-606a6c757c16"
+      },
+      {
+        "uuid": "7d27eb73-562f-4607-b1d2-63d3cee09fab"
+      },
+      {
+        "uuid": "d238d33f-ff98-4ea0-95ba-6e6a38fff5ca"
+      },
+      {
+        "uuid": "50d0cfa8-65ba-42ca-bfaf-91b9319e5db7"
+      },
+      {
+        "uuid": "adf020a5-cfcf-4aa7-a506-34917d1ff8bf"
+      },
+      {
+        "uuid": "ab53fb84-25ba-4f2f-a914-963fd87b62b6"
+      },
+      {
+        "uuid": "28dd88a3-0084-4395-9d28-aa07ab7b4085"
+      },
+      {
+        "uuid": "03f1c70a-3fdd-4a9b-90bf-9f9f3ab2c499"
+      },
+      {
+        "uuid": "282ea61a-f202-4dc4-8347-8ad368dcc522"
+      },
+      {
+        "uuid": "0258e792-0f6e-4d5b-91b0-4041c3b3b2a2"
+      },
+      {
+        "uuid": "ac6c5260-3ee0-4c9d-afcf-276e4a43ae52"
+      },
+      {
+        "uuid": "a276c02f-c00d-424e-84d1-c3cd4e72cd94"
+      },
+      {
+        "uuid": "fa0b6637-58fe-40f8-bffe-e0b8e6a724a7"
+      },
+      {
+        "uuid": "38776173-f412-452b-a570-2bd97dd95edd"
+      },
+      {
+        "uuid": "853264d8-e777-4995-b974-4e3fb062070a"
+      },
+      {
+        "uuid": "cd22a5cf-dafa-4e21-9910-55f9671bf285"
+      },
+      {
+        "uuid": "a0883236-f539-4eb1-bec1-e29590d7745c"
+      },
+      {
+        "uuid": "a32fc145-6c9f-408c-8c3b-9f96b720c367"
+      },
+      {
+        "uuid": "4157fe85-c463-4470-9ede-871d673861f6"
+      },
+      {
+        "uuid": "8ce8283f-67a0-4595-a88a-221679465593"
+      },
+      {
+        "uuid": "d30ab837-7e76-4181-8610-af46904dc9a4"
+      },
+      {
+        "uuid": "7b0e0a97-dee4-4ac2-88a3-a5109032e8c5"
+      },
+      {
+        "uuid": "bead42ad-18b0-401f-b6be-0b1cfc9ed2f3"
+      },
+      {
+        "uuid": "e72b3f3f-b9d9-4cc2-b506-98ec82eca809"
+      },
+      {
+        "uuid": "9fa4284e-78eb-45cf-8f7b-3cc8f45ef70e"
+      },
+      {
+        "uuid": "c0bec20b-89d1-4316-a50b-b8e53b558ca7"
+      },
+      {
+        "uuid": "9111138e-0531-4624-ae15-cd3459b2a376"
+      },
+      {
+        "uuid": "30dd3a49-b06a-4ae4-a224-9c081a1b7ec9"
+      },
+      {
+        "uuid": "44dff3ec-b604-46fb-b9e9-b08a8d01d211"
+      },
+      {
+        "uuid": "9715c7ea-10f5-40c1-80fc-2e14563d774b"
+      },
+      {
+        "uuid": "ef44ca64-c9d2-4e66-a5e3-7ffbe6af7fe2"
+      },
+      {
+        "uuid": "3e3d6791-1f0c-4015-98dc-8a2b6713b27b"
+      }
+    ]
+  },
+  {
+    "name": "Breast visual examination comments",
+    "uuid": "d42682da-49ac-4bce-a112-5426bfb78974",
+    "dataType": "Text"
+  },
+  {
+    "name": "Refer to breast cancer specialist",
+    "uuid": "0b1170d9-4ab7-48a3-81d6-468638818bba",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
+      },
+      {
+        "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
+      }
+    ]
+  },
+  {
+    "name": "Breast cancer screening referral comments",
+    "uuid": "eaa0ef8f-f3b0-4260-9cbc-52d3fb3b4704",
+    "dataType": "Text"
+  },
+  {
+    "name": "Ulceration",
+    "uuid": "4a247cbf-8ee1-4738-837d-d9c939e3d6c6",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
+      },
+      {
+        "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
+      }
+    ]
+  },
+  {
+    "name": "Puckering and dimpling of breast skin",
+    "uuid": "ab6b9907-b00e-4549-9bb2-66737937cc91",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
+      },
+      {
+        "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
+      }
+    ]
+  },
+  {
+    "name": "Nipple discharge",
+    "uuid": "1ae9b393-a06c-4259-aa89-27828424310b",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
+      },
+      {
+        "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
+      }
+    ]
+  },
+  {
+    "name": "Nipple retraction or distortion",
+    "uuid": "b16f8065-1dee-43fc-a91c-42ae6db114b5",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
+      },
+      {
+        "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
+      }
+    ]
+  },
+  {
+    "name": "Swelling in armpit",
+    "uuid": "324f154e-582a-4aec-9c1c-528b0d7e74c5",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
+      },
+      {
+        "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
+      }
+    ]
+  },
+  {
+    "name": "Lump in breast",
+    "uuid": "818d7bea-796b-4452-a5a5-b806660cbb0d",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
+      },
+      {
+        "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
+      }
+    ]
+  },
+  {
+    "name": "Breast screening symptom comments",
+    "uuid": "1fbeef2a-09e3-4689-b994-a9ea3147809c",
+    "dataType": "Text"
+  },
+  {
+    "name": "Irritation or puckering or dimpling of breast skin",
+    "uuid": "963eb0c8-0917-4522-b429-6cd320882e72",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
+      },
+      {
+        "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
+      }
+    ]
+  },
+  {
+    "name": "Redness or flaky skin in nipple area or breast",
+    "uuid": "5b91bc2d-a44f-41a6-a91a-0ee8ba09f3a6",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
+      },
+      {
+        "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
+      }
+    ]
+  },
+  {
+    "name": "Pain in breast or armpit",
+    "uuid": "8e48f1b1-3bdd-46cf-8449-4472c879b804",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
+      },
+      {
+        "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
+      }
+    ]
+  },
+  {
+    "name": "Swelling or lump in armpit",
+    "uuid": "9d281c4b-a901-401a-9f39-4b88e70e400c",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
+      },
+      {
+        "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
+      }
+    ]
+  },
+  {
+    "name": "Nipple discharge other than breast milk, including blood",
+    "uuid": "c598ca56-ce51-43bb-a400-f7a71aa000f4",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
+      },
+      {
+        "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
+      }
+    ]
+  },
+  {
+    "name": "Symptom of nipple retraction or distortion",
+    "uuid": "99e63a9f-871e-41ff-881f-b0aeab1f1e3d",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
+      },
+      {
+        "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
+      }
+    ]
+  },
+  {
+    "name": "Change in size or shape of breast",
+    "uuid": "b20b7c82-572f-4d89-b7bb-b9063a255300",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
+      },
+      {
+        "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
+      }
+    ]
+  },
+  {
+    "name": "Lump or thickening of breast",
+    "uuid": "78a54f4f-2f1c-4641-bf46-b2cbcadaf809",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
+      },
+      {
+        "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
+      }
+    ]
+  },
+  {
+    "name": "Any breast related Issue",
+    "uuid": "fbf8f987-4793-4e4b-9964-d76050f044e7",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
+      },
+      {
+        "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
+      }
+    ]
+  },
+  {
+    "name": "Any cervix related issue",
+    "uuid": "cc84bcae-f3fd-4e9e-bab0-d112da4752c1",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
+      },
+      {
+        "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
+      }
+    ]
+  },
+  {
+    "name": "Vaginal bleeding between periods",
+    "uuid": "b3fc9c2a-a182-4a19-856f-51bd4818f3ef",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
+      },
+      {
+        "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
+      }
+    ]
+  },
+  {
+    "name": "Post-menopausal bleeding",
+    "uuid": "75db653d-0730-44f7-b596-3347b0eb0a98",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
+      },
+      {
+        "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
+      }
+    ]
+  },
+  {
+    "name": "Bleeding after sexual intercourse",
+    "uuid": "8d7b03df-ee83-4721-9bad-1fa4fcc8b995",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
+      },
+      {
+        "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
+      }
+    ]
+  },
+  {
+    "name": "Smelly vaginal discharge",
+    "uuid": "1ce2f3d0-31a7-4ae2-aaa3-2f13c5d929c9",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
+      },
+      {
+        "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
+      }
+    ]
+  },
+  {
+    "name": "Unusual vaginal discharge tinged with blood",
+    "uuid": "52a19119-1359-4821-a7e2-2df802d55fb8",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
+      },
+      {
+        "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
+      }
+    ]
+  },
+  {
+    "name": "Cervical screening symptom comments",
+    "uuid": "61d4f759-fa76-47b9-8e97-7e708ca359f3",
+    "dataType": "Text"
+  },
+  {
+    "name": "Polyp",
+    "uuid": "9c074075-c6b0-4a0c-bdb0-85badc9fce6e",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
+      },
+      {
+        "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
+      }
+    ]
+  },
+  {
+    "name": "Ectopy",
+    "uuid": "ba22e695-af54-463b-9674-2ba5f68a72f1",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
+      },
+      {
+        "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
+      }
+    ]
+  },
+  {
+    "name": "Hypertrophy",
+    "uuid": "8cc70961-b403-4ae4-a359-e3929fc528e2",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
+      },
+      {
+        "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
+      }
+    ]
+  },
+  {
+    "name": "Bleeding on touch",
+    "uuid": "f24ed041-ec5d-41dc-ba36-7117c9a69820",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
+      },
+      {
+        "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
+      }
+    ]
+  },
+  {
+    "name": "Unhealthy cervix",
+    "uuid": "58da06f2-01f1-4d5d-b376-07dd1b654297",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
+      },
+      {
+        "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
+      }
+    ]
+  },
+  {
+    "name": "Malignancy or growth in cervix",
+    "uuid": "b5b189ca-787e-40b5-94a7-253479696ed1",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
+      },
+      {
+        "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
+      }
+    ]
+  },
+  {
+    "name": "Suspicious looking",
+    "uuid": "0ebf49f6-6775-4b70-a725-52a888c0a802",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
+      },
+      {
+        "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
+      }
+    ]
+  },
+  {
+    "name": "Prolapse uterus",
+    "uuid": "1d666ae8-a536-4fb3-80b8-95b9bd2ab3d2",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
+      },
+      {
+        "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
+      }
+    ]
+  },
+  {
+    "name": "Cervical screening visual examination comments",
+    "uuid": "982b2d75-078d-4d8f-8220-d2c703d461c6",
+    "dataType": "Text"
+  },
+  {
+    "name": "Refer to cervical cancer specialist",
+    "uuid": "62ee3416-bb1a-41f4-9106-54290b401fca",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
+      },
+      {
+        "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
+      }
+    ]
+  },
+  {
+    "name": "Cervical cancer screening referral comments",
+    "uuid": "d6bb59c7-8d46-4649-8a3f-5948709a59ae",
+    "dataType": "Text"
+  },
+  {
+    "name": "Has pain",
+    "uuid": "69bfe2d6-6076-4be7-82d9-8066107692ed",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
+      },
+      {
+        "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
+      }
+    ]
+  },
+  {
+    "name": "Bad breath",
+    "uuid": "f672f2ca-1299-4008-aa19-95e7e0d3acec",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
+      },
+      {
+        "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
+      }
+    ]
+  },
+  {
+    "name": "Bleeding",
+    "uuid": "f83eae70-5749-4e07-bb26-b8ce97455596",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
+      },
+      {
+        "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
+      }
+    ]
+  },
+  {
+    "name": "Sensitivity",
+    "uuid": "5e9c8ea7-4c3f-40bb-b41b-0f803bf39800",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
+      },
+      {
+        "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
+      }
+    ]
+  },
+  {
+    "name": "Esthetic",
+    "uuid": "758482e5-98a7-4f31-a7e4-0e063c74e87a",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
+      },
+      {
+        "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
+      }
+    ]
+  },
+  {
+    "name": "Ulcer boil",
+    "uuid": "85a01aad-79af-4eac-9a20-5f36dce74b11",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
+      },
+      {
+        "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
+      }
+    ]
+  },
+  {
+    "name": "Difficulty in opening mouth",
+    "uuid": "46e668ed-d401-4abf-8ce9-e7aa122a3a0a",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
+      },
+      {
+        "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
+      }
+    ]
+  },
+  {
+    "name": "Change in voice",
+    "uuid": "180eb606-67a8-4be9-af1d-43816af60678",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
+      },
+      {
+        "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
+      }
+    ]
+  },
+  {
+    "name": "Difficulty in tolerating spicy food",
+    "uuid": "6d6e4d5a-2ab5-4ff0-98cd-dcc5ff4146da",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
+      },
+      {
+        "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
+      }
+    ]
+  },
+  {
+    "name": "Swallowing",
+    "uuid": "b37b8416-2058-4361-9492-07853252f1d6",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
+      },
+      {
+        "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
+      }
+    ]
+  },
+  {
+    "name": "A lump or thickening in cheek",
+    "uuid": "9d39b1d0-0e60-46ca-a57f-14cf20387b65",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
+      },
+      {
+        "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
+      }
+    ]
+  },
+  {
+    "name": "Ulcer or rough area in the mouth for more than 3 weeks",
+    "uuid": "af058b43-b3bc-480f-9622-57daee51b008",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
+      },
+      {
+        "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
+      }
+    ]
+  },
+  {
+    "name": "Areca nut supari",
+    "uuid": "256b86b0-5de9-4095-8e97-ff35f9368373",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
+      },
+      {
+        "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
+      }
+    ]
+  },
+  {
+    "name": "Tobacco habit since",
+    "uuid": "8d21662d-118d-4706-96ba-dbad0d5818d9",
+    "dataType": "Date"
+  },
+  {
+    "name": "Tobacco consumption frequency",
+    "uuid": "c362db98-2634-4e5f-b66c-84acfe40cf8d",
+    "dataType": "Numeric",
+    "unit": "times/day"
+  },
+  {
+    "name": "Consumes alcohol",
+    "uuid": "cd20f403-2800-47dc-9bc1-20a94a2f61dc",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
+      },
+      {
+        "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
+      }
+    ]
+  },
+  {
+    "name": "Alcohol habit since",
+    "uuid": "a7f7f1ae-721a-4266-a9c9-cc82c1319ad3",
+    "dataType": "Date"
+  },
+  {
+    "name": "Alcohol consumption frequency",
+    "uuid": "ea5780d4-88c0-4442-9b8c-b441d407ea1f",
+    "dataType": "Numeric",
+    "unit": "times/week"
+  },
+  {
+    "name": "Smoking habit",
+    "uuid": "a757d222-e7b1-45e8-bef2-c2ee8d17b3e7",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
+      },
+      {
+        "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
+      }
+    ]
+  },
+  {
+    "name": "Smoking habit since",
+    "uuid": "60c9d36c-b34d-49c6-bc74-361ab12a4ded",
+    "dataType": "Date"
+  },
+  {
+    "name": "Oral abnormality",
+    "uuid": "8a163e5a-9708-4e81-8abc-1eb113b79a21",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
+      },
+      {
+        "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
+      }
+    ]
+  },
+  {
+    "name": "Leukoplakia",
+    "uuid": "f8afd6c8-5d14-400e-90df-e39e5ee92883",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
+      },
+      {
+        "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
+      }
+    ]
+  },
+  {
+    "name": "Lichen planus",
+    "uuid": "81db7704-588a-4056-9d21-1bb0746813fb",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
+      },
+      {
+        "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
+      }
+    ]
+  },
+  {
+    "name": "OSMF",
+    "uuid": "9e6fa079-a9c5-405a-a9c7-b06201ec5ab2",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
+      },
+      {
+        "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
+      }
+    ]
+  },
+  {
+    "name": "Non healing ulcer",
+    "uuid": "5a012e42-c85f-4478-b822-042c6f553121",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
+      },
+      {
+        "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
+      }
+    ]
+  },
+  {
+    "name": "Smokers palate",
+    "uuid": "576fdbe8-1fc2-47ea-9333-9942b3f26bb3",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
+      },
+      {
+        "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
+      }
+    ]
+  },
+  {
+    "name": "Erythroplakia",
+    "uuid": "b9a3739a-1665-42be-a800-80f8e99cb906",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
+      },
+      {
+        "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
+      }
+    ]
+  },
+  {
+    "name": "Candidacies",
+    "uuid": "d2209f91-56ea-4d3b-b7ed-8e05a9a6ab0a",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
+      },
+      {
+        "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
+      }
+    ]
+  },
+  {
+    "name": "Tobacco pouch",
+    "uuid": "004fdcec-fcef-44e5-af5e-94edbb13b295",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
+      },
+      {
+        "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
+      }
+    ]
+  },
+  {
+    "name": "Other visual examination",
+    "uuid": "d0015bb1-39dd-41ee-87c6-2348a23b2a19",
+    "dataType": "Text"
+  },
+  {
+    "name": "Refer to oral cancer specialist",
+    "uuid": "933f4e21-04c5-4bd0-b5d1-a3060393a78c",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
+      },
+      {
+        "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
+      }
+    ]
+  },
+  {
+    "name": "Oral cancer screening referral comments",
+    "uuid": "6a97ae74-e61a-4ee3-967d-08ae282dec1e",
+    "dataType": "Text"
   }
 ]

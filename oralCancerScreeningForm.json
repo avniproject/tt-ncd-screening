@@ -15,17 +15,7 @@
           "uuid": "6ec9c6e6-b7f2-4391-92a7-5b7574c3d983",
           "type": "SingleSelect",
           "concept": {
-            "name": "Has pain",
-            "uuid": "69bfe2d6-6076-4be7-82d9-8066107692ed",
-            "dataType": "Coded",
-            "answers": [
-              {
-                "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
-              },
-              {
-                "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
-              }
-            ]
+            "uuid": "69bfe2d6-6076-4be7-82d9-8066107692ed"
           },
           "displayOrder": 1,
           "mandatory": true
@@ -35,17 +25,7 @@
           "uuid": "2d41d6a2-a023-4f7b-b884-b38bdbff3bea",
           "type": "SingleSelect",
           "concept": {
-            "name": "Bad breath",
-            "uuid": "f672f2ca-1299-4008-aa19-95e7e0d3acec",
-            "dataType": "Coded",
-            "answers": [
-              {
-                "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
-              },
-              {
-                "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
-              }
-            ]
+            "uuid": "f672f2ca-1299-4008-aa19-95e7e0d3acec"
           },
           "displayOrder": 2,
           "mandatory": true
@@ -55,17 +35,7 @@
           "uuid": "54a66d59-9905-47db-9a92-311a77480d80",
           "type": "SingleSelect",
           "concept": {
-            "name": "Bleeding",
-            "uuid": "f83eae70-5749-4e07-bb26-b8ce97455596",
-            "dataType": "Coded",
-            "answers": [
-              {
-                "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
-              },
-              {
-                "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
-              }
-            ]
+            "uuid": "f83eae70-5749-4e07-bb26-b8ce97455596"
           },
           "displayOrder": 3,
           "mandatory": true
@@ -75,17 +45,7 @@
           "uuid": "818ee2fb-2704-4f32-9757-11095d4f9d33",
           "type": "SingleSelect",
           "concept": {
-            "name": "Sensitivity",
-            "uuid": "5e9c8ea7-4c3f-40bb-b41b-0f803bf39800",
-            "dataType": "Coded",
-            "answers": [
-              {
-                "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
-              },
-              {
-                "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
-              }
-            ]
+            "uuid": "5e9c8ea7-4c3f-40bb-b41b-0f803bf39800"
           },
           "displayOrder": 4,
           "mandatory": true
@@ -95,17 +55,7 @@
           "uuid": "1efe33ea-f1c7-4890-b3e3-d2786156ec86",
           "type": "SingleSelect",
           "concept": {
-            "name": "Esthetic",
-            "uuid": "758482e5-98a7-4f31-a7e4-0e063c74e87a",
-            "dataType": "Coded",
-            "answers": [
-              {
-                "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
-              },
-              {
-                "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
-              }
-            ]
+            "uuid": "758482e5-98a7-4f31-a7e4-0e063c74e87a"
           },
           "displayOrder": 5,
           "mandatory": true
@@ -115,17 +65,7 @@
           "uuid": "a7f174e0-09df-4228-a32e-82102ef0d06b",
           "type": "SingleSelect",
           "concept": {
-            "name": "Ulcer boil",
-            "uuid": "85a01aad-79af-4eac-9a20-5f36dce74b11",
-            "dataType": "Coded",
-            "answers": [
-              {
-                "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
-              },
-              {
-                "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
-              }
-            ]
+            "uuid": "85a01aad-79af-4eac-9a20-5f36dce74b11"
           },
           "displayOrder": 6,
           "mandatory": true
@@ -135,17 +75,7 @@
           "uuid": "c9c6b83a-e040-4e0a-bb99-da8c20835298",
           "type": "SingleSelect",
           "concept": {
-            "name": "Difficulty in opening mouth",
-            "uuid": "46e668ed-d401-4abf-8ce9-e7aa122a3a0a",
-            "dataType": "Coded",
-            "answers": [
-              {
-                "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
-              },
-              {
-                "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
-              }
-            ]
+            "uuid": "46e668ed-d401-4abf-8ce9-e7aa122a3a0a"
           },
           "displayOrder": 7,
           "mandatory": true
@@ -155,17 +85,7 @@
           "uuid": "cbd7f0c1-4e81-4b08-898e-f9acc8db262d",
           "type": "SingleSelect",
           "concept": {
-            "name": "Change in voice",
-            "uuid": "180eb606-67a8-4be9-af1d-43816af60678",
-            "dataType": "Coded",
-            "answers": [
-              {
-                "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
-              },
-              {
-                "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
-              }
-            ]
+            "uuid": "180eb606-67a8-4be9-af1d-43816af60678"
           },
           "displayOrder": 8,
           "mandatory": true
@@ -175,17 +95,7 @@
           "uuid": "d9400efc-348a-42c0-a8e4-d85878266a6c",
           "type": "SingleSelect",
           "concept": {
-            "name": "Difficulty in tolerating spicy food",
-            "uuid": "6d6e4d5a-2ab5-4ff0-98cd-dcc5ff4146da",
-            "dataType": "Coded",
-            "answers": [
-              {
-                "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
-              },
-              {
-                "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
-              }
-            ]
+            "uuid": "6d6e4d5a-2ab5-4ff0-98cd-dcc5ff4146da"
           },
           "displayOrder": 9,
           "mandatory": true
@@ -195,17 +105,7 @@
           "uuid": "95bcd3bf-ceb4-472f-9c04-862aad8b2b29",
           "type": "SingleSelect",
           "concept": {
-            "name": "Swallowing",
-            "uuid": "b37b8416-2058-4361-9492-07853252f1d6",
-            "dataType": "Coded",
-            "answers": [
-              {
-                "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
-              },
-              {
-                "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
-              }
-            ]
+            "uuid": "b37b8416-2058-4361-9492-07853252f1d6"
           },
           "displayOrder": 10,
           "mandatory": true
@@ -215,17 +115,7 @@
           "uuid": "18605eb4-acce-46cb-b17e-183560a1e78a",
           "type": "SingleSelect",
           "concept": {
-            "name": "A lump or thickening in cheek",
-            "uuid": "9d39b1d0-0e60-46ca-a57f-14cf20387b65",
-            "dataType": "Coded",
-            "answers": [
-              {
-                "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
-              },
-              {
-                "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
-              }
-            ]
+            "uuid": "9d39b1d0-0e60-46ca-a57f-14cf20387b65"
           },
           "displayOrder": 11,
           "mandatory": true
@@ -235,17 +125,7 @@
           "uuid": "7fbf6945-5b92-4c09-a9ac-b03d68133b9a",
           "type": "SingleSelect",
           "concept": {
-            "name": "Ulcer or rough area in the mouth for more than 3 weeks",
-            "uuid": "af058b43-b3bc-480f-9622-57daee51b008",
-            "dataType": "Coded",
-            "answers": [
-              {
-                "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
-              },
-              {
-                "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
-              }
-            ]
+            "uuid": "af058b43-b3bc-480f-9622-57daee51b008"
           },
           "displayOrder": 12,
           "mandatory": true
@@ -263,17 +143,7 @@
           "uuid": "d1dc8f18-ecf6-480b-b5e7-823870982ba1",
           "type": "SingleSelect",
           "concept": {
-            "name": "Areca nut supari",
-            "uuid": "256b86b0-5de9-4095-8e97-ff35f9368373",
-            "dataType": "Coded",
-            "answers": [
-              {
-                "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
-              },
-              {
-                "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
-              }
-            ]
+            "uuid": "256b86b0-5de9-4095-8e97-ff35f9368373"
           },
           "displayOrder": 1,
           "mandatory": true
@@ -291,9 +161,7 @@
             }
           ],
           "concept": {
-            "name": "Tobacco habit since",
-            "uuid": "8d21662d-118d-4706-96ba-dbad0d5818d9",
-            "dataType": "Date"
+            "uuid": "8d21662d-118d-4706-96ba-dbad0d5818d9"
           },
           "displayOrder": 2,
           "mandatory": false
@@ -303,10 +171,7 @@
           "uuid": "b9fca250-6557-4812-b139-802d3f544fbe",
           "keyValues": [],
           "concept": {
-            "name": "Tobacco consumption frequency",
-            "uuid": "c362db98-2634-4e5f-b66c-84acfe40cf8d",
-            "dataType": "Numeric",
-            "unit": "times/day"
+            "uuid": "c362db98-2634-4e5f-b66c-84acfe40cf8d"
           },
           "displayOrder": 3,
           "mandatory": false
@@ -324,17 +189,7 @@
           "uuid": "43c80763-8209-4998-aaf7-b13900814a3c",
           "type": "SingleSelect",
           "concept": {
-            "name": "Consumes alcohol",
-            "uuid": "cd20f403-2800-47dc-9bc1-20a94a2f61dc",
-            "dataType": "Coded",
-            "answers": [
-              {
-                "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
-              },
-              {
-                "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
-              }
-            ]
+            "uuid": "cd20f403-2800-47dc-9bc1-20a94a2f61dc"
           },
           "displayOrder": 1,
           "mandatory": true
@@ -352,9 +207,7 @@
             }
           ],
           "concept": {
-            "name": "Alcohol habit since",
-            "uuid": "a7f7f1ae-721a-4266-a9c9-cc82c1319ad3",
-            "dataType": "Date"
+            "uuid": "a7f7f1ae-721a-4266-a9c9-cc82c1319ad3"
           },
           "displayOrder": 2,
           "mandatory": false
@@ -364,10 +217,7 @@
           "uuid": "3836588c-51f3-4036-88af-d3500b582731",
           "keyValues": [],
           "concept": {
-            "name": "Alcohol consumption frequency",
-            "uuid": "ea5780d4-88c0-4442-9b8c-b441d407ea1f",
-            "dataType": "Numeric",
-            "unit": "times/week"
+            "uuid": "ea5780d4-88c0-4442-9b8c-b441d407ea1f"
           },
           "displayOrder": 3,
           "mandatory": false
@@ -385,17 +235,7 @@
           "uuid": "c3857044-90b1-4778-a21a-8d4a2360ef96",
           "type": "SingleSelect",
           "concept": {
-            "name": "Smoking habit",
-            "uuid": "a757d222-e7b1-45e8-bef2-c2ee8d17b3e7",
-            "dataType": "Coded",
-            "answers": [
-              {
-                "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
-              },
-              {
-                "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
-              }
-            ]
+            "uuid": "a757d222-e7b1-45e8-bef2-c2ee8d17b3e7"
           },
           "displayOrder": 1,
           "mandatory": true
@@ -413,9 +253,7 @@
             }
           ],
           "concept": {
-            "name": "Smoking habit since",
-            "uuid": "60c9d36c-b34d-49c6-bc74-361ab12a4ded",
-            "dataType": "Date"
+            "uuid": "60c9d36c-b34d-49c6-bc74-361ab12a4ded"
           },
           "displayOrder": 2,
           "mandatory": false
@@ -443,17 +281,7 @@
           "uuid": "3a8e9cbc-e8ef-4bd6-8c12-51b488ecc274",
           "type": "SingleSelect",
           "concept": {
-            "name": "Oral abnormality",
-            "uuid": "8a163e5a-9708-4e81-8abc-1eb113b79a21",
-            "dataType": "Coded",
-            "answers": [
-              {
-                "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
-              },
-              {
-                "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
-              }
-            ]
+            "uuid": "8a163e5a-9708-4e81-8abc-1eb113b79a21"
           },
           "displayOrder": 1,
           "mandatory": true
@@ -463,17 +291,7 @@
           "uuid": "f6345c6a-bb02-4408-aa98-d0d9301e3320",
           "type": "SingleSelect",
           "concept": {
-            "name": "Leukoplakia",
-            "uuid": "f8afd6c8-5d14-400e-90df-e39e5ee92883",
-            "dataType": "Coded",
-            "answers": [
-              {
-                "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
-              },
-              {
-                "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
-              }
-            ]
+            "uuid": "f8afd6c8-5d14-400e-90df-e39e5ee92883"
           },
           "displayOrder": 2,
           "mandatory": true
@@ -483,17 +301,7 @@
           "uuid": "d9ec3900-b7c8-4e60-b605-ee993289a06d",
           "type": "SingleSelect",
           "concept": {
-            "name": "Lichen planus",
-            "uuid": "81db7704-588a-4056-9d21-1bb0746813fb",
-            "dataType": "Coded",
-            "answers": [
-              {
-                "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
-              },
-              {
-                "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
-              }
-            ]
+            "uuid": "81db7704-588a-4056-9d21-1bb0746813fb"
           },
           "displayOrder": 3,
           "mandatory": true
@@ -503,17 +311,7 @@
           "uuid": "5e9489ed-ec70-4d5b-a552-c487630e48f5",
           "type": "SingleSelect",
           "concept": {
-            "name": "OSMF",
-            "uuid": "9e6fa079-a9c5-405a-a9c7-b06201ec5ab2",
-            "dataType": "Coded",
-            "answers": [
-              {
-                "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
-              },
-              {
-                "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
-              }
-            ]
+            "uuid": "9e6fa079-a9c5-405a-a9c7-b06201ec5ab2"
           },
           "displayOrder": 4,
           "mandatory": true
@@ -523,17 +321,7 @@
           "uuid": "b3ab701c-8c9c-4d81-b1aa-0b28620fa323",
           "type": "SingleSelect",
           "concept": {
-            "name": "Non healing ulcer",
-            "uuid": "5a012e42-c85f-4478-b822-042c6f553121",
-            "dataType": "Coded",
-            "answers": [
-              {
-                "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
-              },
-              {
-                "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
-              }
-            ]
+            "uuid": "5a012e42-c85f-4478-b822-042c6f553121"
           },
           "displayOrder": 5,
           "mandatory": true
@@ -543,17 +331,7 @@
           "uuid": "a9734545-0737-45c1-adbe-32d27ef1f3cf",
           "type": "SingleSelect",
           "concept": {
-            "name": "Smokers palate",
-            "uuid": "576fdbe8-1fc2-47ea-9333-9942b3f26bb3",
-            "dataType": "Coded",
-            "answers": [
-              {
-                "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
-              },
-              {
-                "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
-              }
-            ]
+            "uuid": "576fdbe8-1fc2-47ea-9333-9942b3f26bb3"
           },
           "displayOrder": 6,
           "mandatory": true
@@ -563,17 +341,7 @@
           "uuid": "6c94b611-35a5-4ceb-8042-0e60ad086092",
           "type": "SingleSelect",
           "concept": {
-            "name": "Erythroplakia",
-            "uuid": "b9a3739a-1665-42be-a800-80f8e99cb906",
-            "dataType": "Coded",
-            "answers": [
-              {
-                "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
-              },
-              {
-                "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
-              }
-            ]
+            "uuid": "b9a3739a-1665-42be-a800-80f8e99cb906"
           },
           "displayOrder": 7,
           "mandatory": true
@@ -583,17 +351,7 @@
           "uuid": "85e118eb-e318-4166-92ea-f82c1f0230b3",
           "type": "SingleSelect",
           "concept": {
-            "name": "Candidacies",
-            "uuid": "d2209f91-56ea-4d3b-b7ed-8e05a9a6ab0a",
-            "dataType": "Coded",
-            "answers": [
-              {
-                "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
-              },
-              {
-                "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
-              }
-            ]
+            "uuid": "d2209f91-56ea-4d3b-b7ed-8e05a9a6ab0a"
           },
           "displayOrder": 8,
           "mandatory": true
@@ -603,17 +361,7 @@
           "uuid": "f6f80ee1-81b6-4918-b733-11ab977ed173",
           "type": "SingleSelect",
           "concept": {
-            "name": "Tobacco pouch",
-            "uuid": "004fdcec-fcef-44e5-af5e-94edbb13b295",
-            "dataType": "Coded",
-            "answers": [
-              {
-                "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
-              },
-              {
-                "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
-              }
-            ]
+            "uuid": "004fdcec-fcef-44e5-af5e-94edbb13b295"
           },
           "displayOrder": 9,
           "mandatory": true
@@ -623,9 +371,7 @@
           "uuid": "857f247b-7574-438e-9cd6-09b351076408",
           "keyValues": [],
           "concept": {
-            "name": "Other visual examination",
-            "uuid": "d0015bb1-39dd-41ee-87c6-2348a23b2a19",
-            "dataType": "Text"
+            "uuid": "d0015bb1-39dd-41ee-87c6-2348a23b2a19"
           },
           "displayOrder": 10,
           "mandatory": false
@@ -643,17 +389,7 @@
           "uuid": "644ca343-bda5-4030-aaeb-5f1e940ede03",
           "type": "SingleSelect",
           "concept": {
-            "name": "Refer to oral cancer specialist",
-            "uuid": "933f4e21-04c5-4bd0-b5d1-a3060393a78c",
-            "dataType": "Coded",
-            "answers": [
-              {
-                "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
-              },
-              {
-                "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
-              }
-            ]
+            "uuid": "933f4e21-04c5-4bd0-b5d1-a3060393a78c"
           },
           "displayOrder": 1,
           "mandatory": true
@@ -663,9 +399,7 @@
           "uuid": "71f2ddc5-4433-4091-8769-041c4587a9c6",
           "keyValues": [],
           "concept": {
-            "name": "Oral cancer screening referral comments",
-            "uuid": "6a97ae74-e61a-4ee3-967d-08ae282dec1e",
-            "dataType": "Text"
+            "uuid": "6a97ae74-e61a-4ee3-967d-08ae282dec1e"
           },
           "displayOrder": 2,
           "mandatory": false

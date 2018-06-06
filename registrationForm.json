@@ -15,9 +15,7 @@
           "uuid": "8dbd6690-8b4c-43af-bdbc-59b127b4da21",
           "keyValues": [],
           "concept": {
-            "name": "City",
-            "uuid": "ac89d406-9630-4d00-8b11-c45fc0cd90ed",
-            "dataType": "Text"
+            "uuid": "ac89d406-9630-4d00-8b11-c45fc0cd90ed"
           },
           "displayOrder": 1,
           "mandatory": true
@@ -29,112 +27,7 @@
           "type": "SingleSelect",
           "concept": {
             "name": "Rajasthan District",
-            "uuid": "02ba50a7-8f5d-42f7-ae38-d29bf2e5bfa3",
-            "dataType": "Coded",
-            "answers": [
-              {
-                "uuid": "d1bcefcd-918e-40b4-a03c-0a29962d503d"
-              },
-              {
-                "uuid": "897a5dbc-95c8-4743-94c2-0e8d21e28c53"
-              },
-              {
-                "uuid": "3cd4d018-e6c5-4509-b871-606a6c757c16"
-              },
-              {
-                "uuid": "7d27eb73-562f-4607-b1d2-63d3cee09fab"
-              },
-              {
-                "uuid": "d238d33f-ff98-4ea0-95ba-6e6a38fff5ca"
-              },
-              {
-                "uuid": "50d0cfa8-65ba-42ca-bfaf-91b9319e5db7"
-              },
-              {
-                "uuid": "adf020a5-cfcf-4aa7-a506-34917d1ff8bf"
-              },
-              {
-                "uuid": "ab53fb84-25ba-4f2f-a914-963fd87b62b6"
-              },
-              {
-                "uuid": "28dd88a3-0084-4395-9d28-aa07ab7b4085"
-              },
-              {
-                "uuid": "03f1c70a-3fdd-4a9b-90bf-9f9f3ab2c499"
-              },
-              {
-                "uuid": "282ea61a-f202-4dc4-8347-8ad368dcc522"
-              },
-              {
-                "uuid": "0258e792-0f6e-4d5b-91b0-4041c3b3b2a2"
-              },
-              {
-                "uuid": "ac6c5260-3ee0-4c9d-afcf-276e4a43ae52"
-              },
-              {
-                "uuid": "a276c02f-c00d-424e-84d1-c3cd4e72cd94"
-              },
-              {
-                "uuid": "fa0b6637-58fe-40f8-bffe-e0b8e6a724a7"
-              },
-              {
-                "uuid": "38776173-f412-452b-a570-2bd97dd95edd"
-              },
-              {
-                "uuid": "853264d8-e777-4995-b974-4e3fb062070a"
-              },
-              {
-                "uuid": "cd22a5cf-dafa-4e21-9910-55f9671bf285"
-              },
-              {
-                "uuid": "a0883236-f539-4eb1-bec1-e29590d7745c"
-              },
-              {
-                "uuid": "a32fc145-6c9f-408c-8c3b-9f96b720c367"
-              },
-              {
-                "uuid": "4157fe85-c463-4470-9ede-871d673861f6"
-              },
-              {
-                "uuid": "8ce8283f-67a0-4595-a88a-221679465593"
-              },
-              {
-                "uuid": "d30ab837-7e76-4181-8610-af46904dc9a4"
-              },
-              {
-                "uuid": "7b0e0a97-dee4-4ac2-88a3-a5109032e8c5"
-              },
-              {
-                "uuid": "bead42ad-18b0-401f-b6be-0b1cfc9ed2f3"
-              },
-              {
-                "uuid": "e72b3f3f-b9d9-4cc2-b506-98ec82eca809"
-              },
-              {
-                "uuid": "9fa4284e-78eb-45cf-8f7b-3cc8f45ef70e"
-              },
-              {
-                "uuid": "c0bec20b-89d1-4316-a50b-b8e53b558ca7"
-              },
-              {
-                "uuid": "9111138e-0531-4624-ae15-cd3459b2a376"
-              },
-              {
-                "uuid": "30dd3a49-b06a-4ae4-a224-9c081a1b7ec9"
-              },
-              {
-                "uuid": "44dff3ec-b604-46fb-b9e9-b08a8d01d211"
-              },
-              {
-                "uuid": "9715c7ea-10f5-40c1-80fc-2e14563d774b"
-              },
-              {
-                "uuid": "ef44ca64-c9d2-4e66-a5e3-7ffbe6af7fe2"
-              },
-              {
-                "uuid": "3e3d6791-1f0c-4015-98dc-8a2b6713b27b"
-              }
-            ]
+            "uuid": "02ba50a7-8f5d-42f7-ae38-d29bf2e5bfa3"
           },
           "displayOrder": 2,
           "mandatory": true
