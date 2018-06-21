@@ -126,6 +126,20 @@
         }
       ],
       "comment": "JLN Hospital, Ajmer"
+    },
+    {
+      "name": "MDM, Jodhpur",
+      "uuid": "2d5862b6-3331-42a7-affd-fc9fc48410df",
+      "type": "Hospital",
+      "addressLevels": [
+        {
+          "name": "MDM, Jodhpur",
+          "uuid": "f0572957-bdfb-45fc-bd26-3b773786d7a9",
+          "type": "Hospital",
+          "level": 1
+        }
+      ],
+      "comment": "Mathuradas Mathur Hospital, Jodhpur"
     }
   ]
 }
