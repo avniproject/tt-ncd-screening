@@ -1,6 +1,4 @@
-CREATE ROLE tt_ncd_screening
-  NOINHERIT
-  NOLOGIN;
+CREATE ROLE tt_ncd_screening NOINHERIT;
 
 GRANT tt_ncd_screening TO openchs;
 
