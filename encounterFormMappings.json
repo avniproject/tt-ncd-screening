@@ -1,0 +1,17 @@
+[
+  {
+    "uuid": "393a72a2-9016-479b-b82f-306341414ff1",
+    "formUUID": "1c331a02-5e96-4716-947a-776c89ac7253",
+    "encounterTypeUUID": "21a5d8e8-7d36-4873-98b1-25cfd080f1bf"
+  },
+  {
+    "uuid": "b8479114-b1f7-480b-92bc-fb5221095eb6",
+    "formUUID": "d993c0b7-cc8e-47a4-b979-a874fa1cd41b",
+    "encounterTypeUUID": "7bbbec20-7963-4236-b1ad-dfcbcf0a4eb5"
+  },
+  {
+    "uuid": "392b1da5-4428-4b3b-b675-672a4396e6c2",
+    "formUUID": "ac69b647-d1fc-4c7a-bfae-9f2e7fa48592",
+    "encounterTypeUUID": "684fa56e-ff92-4585-a60a-f1e34f61d864"
+  }
+]
