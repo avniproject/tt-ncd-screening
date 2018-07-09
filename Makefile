@@ -34,7 +34,7 @@ deploy_refdata: ## Creates reference data by POSTing it to the server
 	curl -X POST $(server):$(port)/forms -d @breastCancerScreeningForm.json -H "Content-Type: application/json" -H "ORGANISATION-NAME: Tata Trust - NCD Screening" -H "AUTH-TOKEN: $(token)"
 	curl -X POST $(server):$(port)/forms -d @oralCancerScreeningForm.json -H "Content-Type: application/json" -H "ORGANISATION-NAME: Tata Trust - NCD Screening" -H "AUTH-TOKEN: $(token)"
 	curl -X POST $(server):$(port)/encounterTypes -d @encounterTypes.json -H "Content-Type: application/json" -H "ORGANISATION-NAME: Tata Trust - NCD Screening" -H "AUTH-TOKEN: $(token)"
-	curl -X POST $(server):$(port)/operationalModules -d @operationalModules.json -H "Content-Type: application/json" -H "ORGANISATION-NAME: Tata Trust - NCD Screening" -H "AUTH-TOKEN: $(token)"
+	curl -X POST $(server):$(port)/operationalEncounterTypes -d @operationalModules/operationalEncounterTypes.json -H "Content-Type: application/json" -H "ORGANISATION-NAME: Tata Trust - NCD Screening" -H "AUTH-TOKEN: $(token)"
 	curl -X POST $(server):$(port)/formMappings -d @formMappings.json -H "Content-Type: application/json" -H "ORGANISATION-NAME: Tata Trust - NCD Screening" -H "AUTH-TOKEN: $(token)"
 
 ## </refdata>

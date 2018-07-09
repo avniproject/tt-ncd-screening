@@ -1,0 +1,26 @@
+{
+    "organisationName": "Tata Trust - NCD Screening",
+    "operationalEncounterTypes": [
+      {
+        "uuid": "5fb6ed9e-430d-4e96-9676-80aeafe52d58",
+        "name": "Breast cancer screening",
+        "encounterType": {
+          "uuid": "684fa56e-ff92-4585-a60a-f1e34f61d864"
+        }
+      },
+      {
+        "uuid": "625f843a-be30-42f8-a289-5d22b7574e45",
+        "name": "Cervical cancer screening",
+        "encounterType": {
+          "uuid": "21a5d8e8-7d36-4873-98b1-25cfd080f1bf"
+        }
+      },
+      {
+        "uuid": "e95fce1d-a6ca-4fbc-9a27-b287fb005a5b",
+        "name": "Oral cancer screening",
+        "encounterType": {
+          "uuid": "7bbbec20-7963-4236-b1ad-dfcbcf0a4eb5"
+        }
+      }
+    ]
+}
