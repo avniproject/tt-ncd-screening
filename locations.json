@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Acharya Tulsi Regional",
+    "uuid": "f3019941-9554-448d-be2b-e4441020910a",
+    "type": "Hospital",
+    "level": 1,
+    "parents": []
+  },
+  {
+    "name": "SMS Medical College",
+    "uuid": "6ff62876-fa6f-44ea-8c5e-cc6ad0ab20bd",
+    "type": "Hospital",
+    "level": 1,
+    "parents": []
+  },
+  {
+    "name": "Sancheti Hospital",
+    "uuid": "642b9100-a80f-4219-b93e-ef98d0ea6acd",
+    "type": "Hospital",
+    "level": 1,
+    "parents": []
+  },
+  {
+    "name": "GBH Memorial",
+    "uuid": "acb31c28-e8b2-4cc5-8a4c-e1864dd5c4a7",
+    "type": "Hospital",
+    "level": 1,
+    "parents": []
+  },
+  {
+    "name": "New Medical College Hospital",
+    "uuid": "f6e96221-99e1-4b95-b98b-83321dc4e6a6",
+    "type": "Hospital",
+    "level": 1,
+    "parents": []
+  },
+  {
+    "name": "Maharao Bhim Singh Hospital",
+    "uuid": "89b34fe8-fc68-4b19-a539-3c9529622aaf",
+    "type": "Hospital",
+    "level": 1,
+    "parents": []
+  },
+  {
+    "name": "Jhalawar Medical College",
+    "uuid": "28513a14-3b4a-4be1-ae84-3f34a4d30a00",
+    "type": "Hospital",
+    "level": 1,
+    "parents": []
+  },
+  {
+    "name": "RNT",
+    "uuid": "47e5a4c8-4ffb-4d2f-836b-c9e41e957be4",
+    "type": "Hospital",
+    "level": 1,
+    "parents": []
+  },
+  {
+    "name": "JLN Hospital",
+    "uuid": "6aae4733-8b18-4688-b006-cb01b7b979db",
+    "type": "Hospital",
+    "level": 1,
+    "parents": []
+  },
+  {
+    "name": "MDM, Jodhpur",
+    "uuid": "f0572957-bdfb-45fc-bd26-3b773786d7a9",
+    "type": "Hospital",
+    "level": 1,
+    "parents": []
+  }
+]

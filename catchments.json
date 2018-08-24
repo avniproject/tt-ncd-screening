@@ -2,144 +2,124 @@
   "organisation": "Tata Trust - NCD Screening",
   "catchments": [
     {
-        "name": "Acharya Tulsi Regional",
-        "uuid": "a58cba96-14e2-402a-9832-46ac86ea247d",
-        "type": "Hospital",
-        "addressLevels": [
-          {
-              "name": "Acharya Tulsi Regional",
-              "uuid": "f3019941-9554-448d-be2b-e4441020910a",
-              "type": "Hospital",
-              "level": 1
-          }
-        ],
-      "comment": "Acharya Tulsi Regional Cancer Treatment and Research Institute, P. B. M Hospital Campus, S.P. Medical College, Bikaner, Rajasthan 334 003"
+      "name": "Acharya Tulsi Regional",
+      "uuid": "a58cba96-14e2-402a-9832-46ac86ea247d",
+      "type": "Hospital",
+      "comment": "Acharya Tulsi Regional Cancer Treatment and Research Institute, P. B. M Hospital Campus, S.P. Medical College, Bikaner, Rajasthan 334 003",
+      "locations": [
+        {
+          "uuid": "f3019941-9554-448d-be2b-e4441020910a",
+          "comment": "Acharya Tulsi Regional"
+        }
+      ]
     },
     {
-        "name": "SMS Medical College",
-        "uuid": "1f3eefe4-135e-437b-b848-ed6d5aeecefb",
-        "type": "Hospital",
-        "addressLevels": [
-          {
-              "name": "SMS Medical College",
-              "uuid": "6ff62876-fa6f-44ea-8c5e-cc6ad0ab20bd",
-              "type": "Hospital",
-              "level": 1
-          }
-        ],
-      "comment": "SMS Medical College, Jawaharlal Nehru Marg, Gangawal Park, Jaipur 302 004, Rajasthan"
+      "name": "SMS Medical College",
+      "uuid": "1f3eefe4-135e-437b-b848-ed6d5aeecefb",
+      "type": "Hospital",
+      "comment": "SMS Medical College, Jawaharlal Nehru Marg, Gangawal Park, Jaipur 302 004, Rajasthan",
+      "locations": [
+        {
+          "uuid": "6ff62876-fa6f-44ea-8c5e-cc6ad0ab20bd",
+          "comment": "SMS Medical College"
+        }
+      ]
     },
     {
-        "name": "Sancheti Hospital",
-        "uuid": "427b52f6-ceec-41ff-95b3-96b19b88da9b",
-        "type": "Hospital",
-        "addressLevels": [
-          {
-              "name": "Sancheti Hospital",
-              "uuid": "642b9100-a80f-4219-b93e-ef98d0ea6acd",
-              "type": "Hospital",
-              "level": 1
-          }
-        ],
-      "comment": "Sancheti Hospital & Cancer Institute, Pal Link Road, Opposite Kamla Nehru Chest Hospital, Baldev Nagar, Jodhpur 342 008, Rajasthan"
+      "name": "Sancheti Hospital",
+      "uuid": "427b52f6-ceec-41ff-95b3-96b19b88da9b",
+      "type": "Hospital",
+      "comment": "Sancheti Hospital & Cancer Institute, Pal Link Road, Opposite Kamla Nehru Chest Hospital, Baldev Nagar, Jodhpur 342 008, Rajasthan",
+      "locations": [
+        {
+          "uuid": "642b9100-a80f-4219-b93e-ef98d0ea6acd",
+          "comment": "Sancheti Hospital"
+        }
+      ]
     },
     {
-        "name": "GBH Memorial",
-        "uuid": "45760a33-0800-4a1f-9b0e-edf3c9be30aa",
-        "type": "Hospital",
-        "addressLevels": [
-          {
-              "name": "GBH Memorial",
-              "uuid": "acb31c28-e8b2-4cc5-8a4c-e1864dd5c4a7",
-              "type": "Hospital",
-              "level": 1
-          }
-        ],
-      "comment": "GBH Memorial Cancer Hospital, 101 Kothi Bagh, Bhattji Ki Bari, Meera Girls College Road, Udaipur, Rajasthan 313 001"
+      "name": "GBH Memorial",
+      "uuid": "45760a33-0800-4a1f-9b0e-edf3c9be30aa",
+      "type": "Hospital",
+      "comment": "GBH Memorial Cancer Hospital, 101 Kothi Bagh, Bhattji Ki Bari, Meera Girls College Road, Udaipur, Rajasthan 313 001",
+      "locations": [
+        {
+          "uuid": "acb31c28-e8b2-4cc5-8a4c-e1864dd5c4a7",
+          "comment": "GBH Memorial"
+        }
+      ]
     },
     {
       "name": "New Medical College Hospital",
       "uuid": "60080f97-a95a-4fef-a7f8-51dd4185fa1c",
       "type": "Hospital",
-      "addressLevels": [
+      "comment": "New Medical College Hospital, Kota",
+      "locations": [
         {
-          "name": "New Medical College Hospital",
           "uuid": "f6e96221-99e1-4b95-b98b-83321dc4e6a6",
-          "type": "Hospital",
-          "level": 1
+          "comment": "New Medical College Hospital"
         }
-      ],
-      "comment": "New Medical College Hospital, Kota"
+      ]
     },
     {
       "name": "Maharao Bhim Singh Hospital",
       "uuid": "d252a2d1-b188-4c15-8c67-b5d583ad4bc2",
       "type": "Hospital",
-      "addressLevels": [
+      "comment": "Maharao Bhim Singh Hospital, Kota",
+      "locations": [
         {
-          "name": "Maharao Bhim Singh Hospital",
           "uuid": "89b34fe8-fc68-4b19-a539-3c9529622aaf",
-          "type": "Hospital",
-          "level": 1
+          "comment": "Maharao Bhim Singh Hospital"
         }
-      ],
-      "comment": "Maharao Bhim Singh Hospital, Kota"
+      ]
     },
     {
       "name": "Jhalawar Medical College",
       "uuid": "c1451600-c975-4abf-bd42-fc7c13e8aa7b",
       "type": "Hospital",
-      "addressLevels": [
+      "comment": "Jhalawar Medical College, Jhalawar",
+      "locations": [
         {
-          "name": "Jhalawar Medical College",
           "uuid": "28513a14-3b4a-4be1-ae84-3f34a4d30a00",
-          "type": "Hospital",
-          "level": 1
+          "comment": "Jhalawar Medical College"
         }
-      ],
-      "comment": "Jhalawar Medical College, Jhalawar"
+      ]
     },
     {
       "name": "RNT",
       "uuid": "3ecc0ed0-e585-4e86-803f-b3cf7ec6f695",
       "type": "Hospital",
-      "addressLevels": [
+      "comment": "RNT, Udaipur",
+      "locations": [
         {
-          "name": "RNT",
           "uuid": "47e5a4c8-4ffb-4d2f-836b-c9e41e957be4",
-          "type": "Hospital",
-          "level": 1
+          "comment": "RNT"
         }
-      ],
-      "comment": "RNT, Udaipur"
+      ]
     },
     {
       "name": "JLN Hospital",
       "uuid": "7e5fdd10-7ecf-4e65-a292-9fa5c484c332",
       "type": "Hospital",
-      "addressLevels": [
+      "comment": "JLN Hospital, Ajmer",
+      "locations": [
         {
-          "name": "JLN Hospital",
           "uuid": "6aae4733-8b18-4688-b006-cb01b7b979db",
-          "type": "Hospital",
-          "level": 1
+          "comment": "JLN Hospital"
         }
-      ],
-      "comment": "JLN Hospital, Ajmer"
+      ]
     },
     {
       "name": "MDM, Jodhpur",
       "uuid": "2d5862b6-3331-42a7-affd-fc9fc48410df",
       "type": "Hospital",
-      "addressLevels": [
+      "comment": "Mathuradas Mathur Hospital, Jodhpur",
+      "locations": [
         {
-          "name": "MDM, Jodhpur",
           "uuid": "f0572957-bdfb-45fc-bd26-3b773786d7a9",
-          "type": "Hospital",
-          "level": 1
+          "comment": "MDM, Jodhpur"
         }
-      ],
-      "comment": "Mathuradas Mathur Hospital, Jodhpur"
+      ]
     }
   ]
 }
