@@ -1144,5 +1144,67 @@
     "name": "Oral cancer screening referral comments",
     "uuid": "6a97ae74-e61a-4ee3-967d-08ae282dec1e",
     "dataType": "Text"
+  },
+  {
+    "name": "Previously diagnosed for hypertension",
+    "uuid": "487eef86-92d0-44cf-bfcd-4f18c92c0837",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
+      },
+      {
+        "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
+      }
+    ]
+  },
+  {
+    "name": "Currently under treatment for hypertension",
+    "uuid": "6aefcdf5-0edb-44e4-8309-c5898cb34334",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
+      },
+      {
+        "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
+      }
+    ]
+  },
+  {
+    "name": "Other Tertiary Care Centre",
+    "uuid": "cdea5065-dcde-4972-8b95-a627bfd98169"
+  },
+  {
+    "name": "Referral facility type",
+    "uuid": "9f05b642-1cf6-47e7-92b5-17a5ee77ed39",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "b4007f93-f288-49aa-b2ad-96f1a0f75a43",
+        "abnormal": false,
+        "comment": "Primary Health Centre"
+      },
+      {
+        "uuid": "6e3cb48a-5428-49d3-bccb-6964f958fdf3",
+        "abnormal": false,
+        "comment": "District Hospital"
+      },
+      {
+        "uuid": "ec4fdac4-1786-4e07-97ad-d46172d32f42",
+        "abnormal": false,
+        "comment": "Community Health Centre"
+      },
+      {
+        "uuid": "cdea5065-dcde-4972-8b95-a627bfd98169",
+        "abnormal": false,
+        "comment": "Other Tertiary Care Centre"
+      }
+    ]
+  },
+  {
+    "name": "Hypertension referral remarks",
+    "uuid": "df50366e-d1b3-4b82-b0eb-9d19b9c23692",
+    "dataType": "Text"
   }
 ]

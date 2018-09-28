@@ -16,28 +16,36 @@ help:
 
 port:= $(if $(port),$(port),8021)
 server:= $(if $(server),$(server),http://localhost)
+server_url:=$(server):$(port)
+org_name=Tata Trust - NCD Screening
+
+define _curl
+	curl -X $(1) $(server_url)/$(2) -d $(3)  \
+		-H "Content-Type: application/json"  \
+		-H "ORGANISATION-NAME: $(org_name)"  \
+		$(if $(token),-H "AUTH-TOKEN: $(token)",)
+	@echo
+	@echo
+endef
 
 su:=$(shell id -un)
 
 create_org:
 	psql -U$(su) openchs < create_organisation.sql
 
-deploy_common_concept:
-	curl -X POST $(server):$(port)/concepts -d @../openchs-client/packages/openchs-health-modules/health_modules/commonConcepts.json -H "Content-Type: application/json" -H "ORGANISATION-NAME: OpenCHS" -H "AUTH-TOKEN: $(token)"
-
 ## <refdata>
-deploy_refdata: ## Creates reference data by POSTing it to the server
-	curl -X POST $(server):$(port)/locations -d @locations.json -H "Content-Type: application/json" 	-H "ORGANISATION-NAME: Tata Trust - NCD Screening"  -H "AUTH-TOKEN: $(token)"
-	curl -X POST $(server):$(port)/catchments -d @catchments.json -H "Content-Type: application/json" 	-H "ORGANISATION-NAME: Tata Trust - NCD Screening"  -H "AUTH-TOKEN: $(token)"
-	curl -X POST $(server):$(port)/concepts -d @concepts.json -H "Content-Type: application/json" 	-H "ORGANISATION-NAME: Tata Trust - NCD Screening" -H "AUTH-TOKEN: $(token)"
-	curl -X POST $(server):$(port)/forms -d @registrationForm.json -H "Content-Type: application/json" -H "ORGANISATION-NAME: Tata Trust - NCD Screening" -H "AUTH-TOKEN: $(token)"
-	curl -X POST $(server):$(port)/forms -d @cervicalCancerScreeningForm.json -H "Content-Type: application/json" -H "ORGANISATION-NAME: Tata Trust - NCD Screening" -H "AUTH-TOKEN: $(token)"
-	curl -X POST $(server):$(port)/forms -d @breastCancerScreeningForm.json -H "Content-Type: application/json" -H "ORGANISATION-NAME: Tata Trust - NCD Screening" -H "AUTH-TOKEN: $(token)"
-	curl -X POST $(server):$(port)/forms -d @oralCancerScreeningForm.json -H "Content-Type: application/json" -H "ORGANISATION-NAME: Tata Trust - NCD Screening" -H "AUTH-TOKEN: $(token)"
-	curl -X POST $(server):$(port)/encounterTypes -d @encounterTypes.json -H "Content-Type: application/json" -H "ORGANISATION-NAME: Tata Trust - NCD Screening" -H "AUTH-TOKEN: $(token)"
-	curl -X POST $(server):$(port)/operationalEncounterTypes -d @operationalModules/operationalEncounterTypes.json -H "Content-Type: application/json" -H "ORGANISATION-NAME: Tata Trust - NCD Screening" -H "AUTH-TOKEN: $(token)"
-	curl -X POST $(server):$(port)/formMappings -d @formMappings.json -H "Content-Type: application/json" -H "ORGANISATION-NAME: Tata Trust - NCD Screening" -H "AUTH-TOKEN: $(token)"
-
+deploy: ## Creates reference data by POSTing it to the server
+	$(call _curl,POST,locations,@locations.json)
+	$(call _curl,POST,catchments,@catchments.json)
+	$(call _curl,POST,concepts,@concepts.json)
+	$(call _curl,POST,forms,@registrationForm.json)
+	$(call _curl,POST,forms,@cervicalCancerScreeningForm.json)
+	$(call _curl,POST,forms,@breastCancerScreeningForm.json)
+	$(call _curl,POST,forms,@oralCancerScreeningForm.json)
+	$(call _curl,POST,forms,@hypertensionScreeningForm.json)
+	$(call _curl,POST,encounterTypes,@encounterTypes.json)
+	$(call _curl,POST,operationalEncounterTypes,@operationalModules/operationalEncounterTypes.json)
+	$(call _curl,POST,formMappings,@formMappings.json)
 ## </refdata>
 
-deploy: deploy_refdata
+create_deploy: create_org deploy

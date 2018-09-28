@@ -1,0 +1,103 @@
+{
+  "name": "Hypertension screening",
+  "uuid": "c35048db-4dcc-4f84-933b-c974caf8976b",
+  "formType": "Encounter",
+  "formElementGroups": [
+    {
+      "uuid": "5f69faf2-126c-4ed6-80d7-21b558481ab7",
+      "name": "Hypertension",
+      "display": "Hypertension",
+      "displayOrder": 1,
+      "formElements": [
+        {
+          "name": "Diagnosed for Hypertension earlier?",
+          "uuid": "bb4b3352-1904-4b18-930b-9a691f8d15c0",
+          "keyValues": [],
+          "concept": {
+            "uuid": "487eef86-92d0-44cf-bfcd-4f18c92c0837"
+          },
+          "displayOrder": 1,
+          "mandatory": true
+        },
+        {
+          "name": "Currently Under Treatment",
+          "uuid": "3f3d0538-e702-40ed-9c1c-e89e07f764c1",
+          "keyValues": [],
+          "concept": {
+            "uuid": "6aefcdf5-0edb-44e4-8309-c5898cb34334"
+          },
+          "displayOrder": 2,
+          "mandatory": true
+        },
+        {
+          "name": "Systolic",
+          "uuid": "8966b1d7-1c5b-4aa7-8562-c33bf02f6ba3",
+          "keyValues": [],
+          "concept": {
+            "uuid": "2a04bf88-6346-4eda-a86c-8a2afc011b22"
+          },
+          "displayOrder": 3,
+          "mandatory": true
+        },
+        {
+          "name": "Diastolic",
+          "uuid": "8fd2a8f9-861e-4364-bab6-37e2f652c90b",
+          "keyValues": [],
+          "concept": {
+            "uuid": "1e2d41a2-5b6a-4ad7-ab91-51d3cdf122bd"
+          },
+          "displayOrder": 4,
+          "mandatory": true
+        },
+        {
+          "name": "Pulse rate",
+          "uuid": "5e3bb80d-f378-42c0-b47e-599708a78dd8",
+          "keyValues": [],
+          "concept": {
+            "uuid": "2d3b8f90-6123-4dbf-b866-4f56ac7d24c8"
+          },
+          "displayOrder": 5,
+          "mandatory": true
+        }
+      ]
+    },
+    {
+      "uuid": "1338827f-3979-4275-9a13-fdd0fc1c7d44",
+      "name": "Referral",
+      "display": "Referral",
+      "displayOrder": 2,
+      "formElements": [
+        {
+          "name": "Refer",
+          "uuid": "96c94073-8eef-47ad-89fb-263fa6d32b5b",
+          "type": "SingleSelect",
+          "concept": {
+            "uuid": "5e7b72bf-114f-45cf-abcd-11a6d0a67c12"
+          },
+          "displayOrder": 1,
+          "mandatory": true
+        },
+        {
+          "name": "Refer to",
+          "uuid": "3b74ee03-8937-4d65-9b00-4adbb3ab02ef",
+          "keyValues": [],
+          "concept": {
+            "uuid": "9f05b642-1cf6-47e7-92b5-17a5ee77ed39"
+          },
+          "displayOrder": 2,
+          "mandatory": true
+        },
+        {
+          "name": "Remarks",
+          "uuid": "53f97923-4fcb-4917-8d14-699286798c05",
+          "keyValues": [],
+          "concept": {
+            "uuid": "df50366e-d1b3-4b82-b0eb-9d19b9c23692"
+          },
+          "displayOrder": 3,
+          "mandatory": false
+        }
+      ]
+    }
+  ]
+}

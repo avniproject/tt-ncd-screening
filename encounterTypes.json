@@ -10,5 +10,9 @@
   {
     "uuid": "7bbbec20-7963-4236-b1ad-dfcbcf0a4eb5",
     "name": "Oral cancer screening"
+  },
+  {
+    "uuid": "b3202ebd-48f1-4bf3-87e7-858087b950b6",
+    "name": "Hypertension screening"
   }
 ]
