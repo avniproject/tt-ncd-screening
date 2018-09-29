@@ -1206,5 +1206,98 @@
     "name": "Hypertension referral remarks",
     "uuid": "df50366e-d1b3-4b82-b0eb-9d19b9c23692",
     "dataType": "Text"
+  },
+  {
+    "name": "Previously diagnosed for diabetes",
+    "uuid": "9d967f22-edb7-4fde-b0ef-54cdfeeab706",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
+      },
+      {
+        "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
+      }
+    ]
+  },
+  {
+    "name": "Currently under treatment for diabetes",
+    "uuid": "5e0b6e6f-74ef-4a2f-a403-5ec35a58ef82",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
+      },
+      {
+        "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
+      }
+    ]
+  },
+  {
+    "name": "Random blood glucose/sugar",
+    "uuid": "1638c1e1-3dc9-43e1-85c5-577ee6d0c3df",
+    "dataType": "Numeric",
+    "unit": "mg/dl",
+    "lowAbsolute": 0,
+    "lowWarning": 0,
+    "lowNormal": 0,
+    "highNormal": 100,
+    "highWarning": 140,
+    "highAbsolute": 1000
+  },
+  {
+    "uuid": "41e0cf63-15f5-4af5-8efc-78e0b32a67e8",
+    "name": "Postprandial Glucose Test"
+  },
+  {
+    "name": "Oral glucose tolerance test",
+    "uuid": "5b39ae36-ba7f-4a65-b5c9-6f87e93437c7",
+    "dataType": "Numeric",
+    "unit": "venous",
+    "lowAbsolute": 0,
+    "lowWarning": 0,
+    "lowNormal": 0,
+    "highNormal": 200,
+    "highWarning": 200,
+    "highAbsolute": 1000
+  },
+  {
+    "uuid": "6beebfe3-ca9e-47f7-8ae6-bf6fee3c9d7c",
+    "name": "HBA1c",
+    "dataType": "Numeric",
+    "unit": "%",
+    "lowAbsolute": 0,
+    "lowWarning": 0,
+    "lowNormal": 0,
+    "highNormal": 7,
+    "highWarning": 7,
+    "highAbsolute": 100
+  },
+  {
+    "name": "Diabetes test used",
+    "uuid": "113a9751-63ae-4a35-941c-a43c70f683ba",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "1638c1e1-3dc9-43e1-85c5-577ee6d0c3df",
+        "abnormal": false
+      },
+      {
+        "uuid": "76c0bd04-73af-4bdf-846e-f194de5f3fe7",
+        "abnormal": false
+      },
+      {
+        "uuid": "41e0cf63-15f5-4af5-8efc-78e0b32a67e8",
+        "abnormal": false
+      },
+      {
+        "uuid": "5b39ae36-ba7f-4a65-b5c9-6f87e93437c7",
+        "abnormal": false
+      },
+      {
+        "uuid": "6beebfe3-ca9e-47f7-8ae6-bf6fee3c9d7c",
+        "abnormal": false
+      }
+    ]
   }
 ]

@@ -28,6 +28,13 @@
       "encounterType": {
         "uuid": "b3202ebd-48f1-4bf3-87e7-858087b950b6"
       }
+    },
+    {
+      "uuid": "62247620-0724-4e7e-9340-d52bb7bff8c0",
+      "name": "Diabetes screening",
+      "encounterType": {
+        "uuid": "2c57ad25-f6e7-4895-92a5-c9a6eeb045f1"
+      }
     }
   ]
 }

@@ -1,77 +1,97 @@
 {
-  "name": "Hypertension screening",
-  "uuid": "c35048db-4dcc-4f84-933b-c974caf8976b",
+  "name": "Type 2 Diabetes Screening Form",
+  "uuid": "01ac5ce7-9b2d-46e9-a235-147441fa8059",
   "formType": "Encounter",
   "formElementGroups": [
     {
-      "uuid": "5f69faf2-126c-4ed6-80d7-21b558481ab7",
+      "uuid": "8ad57dd0-eb4e-436a-9354-fd0df3ed4436",
       "name": "Examination",
       "display": "Examination",
       "displayOrder": 1,
       "formElements": [
         {
-          "name": "Diagnosed for Hypertension earlier?",
-          "uuid": "bb4b3352-1904-4b18-930b-9a691f8d15c0",
+          "name": "Diagnosed for Diabetes Earlier?",
+          "uuid": "f2625690-6194-48ea-bac5-e5296abc3905",
           "type": "SingleSelect",
           "keyValues": [],
           "concept": {
-            "uuid": "487eef86-92d0-44cf-bfcd-4f18c92c0837"
+            "uuid": "9d967f22-edb7-4fde-b0ef-54cdfeeab706"
           },
           "displayOrder": 1,
           "mandatory": true
         },
         {
           "name": "Currently Under Treatment",
-          "uuid": "3f3d0538-e702-40ed-9c1c-e89e07f764c1",
+          "uuid": "f95df2ee-5b1a-439b-bfb9-e0a1d04e4464",
           "type": "SingleSelect",
           "keyValues": [],
           "concept": {
-            "uuid": "6aefcdf5-0edb-44e4-8309-c5898cb34334"
+            "uuid": "5e0b6e6f-74ef-4a2f-a403-5ec35a58ef82"
           },
           "displayOrder": 2,
           "mandatory": true
         },
         {
-          "name": "Systolic",
-          "uuid": "8966b1d7-1c5b-4aa7-8562-c33bf02f6ba3",
+          "name": "Test Used",
+          "uuid": "81d0d77a-a885-4b7d-a480-2600c85bd7b3",
           "keyValues": [],
           "concept": {
-            "uuid": "2a04bf88-6346-4eda-a86c-8a2afc011b22"
+            "uuid": "113a9751-63ae-4a35-941c-a43c70f683ba"
           },
           "displayOrder": 3,
           "mandatory": true
         },
         {
-          "name": "Diastolic",
-          "uuid": "8fd2a8f9-861e-4364-bab6-37e2f652c90b",
+          "name": "Measure",
+          "uuid": "fb47199d-948a-49f0-ac4a-abf5ddbef972",
           "keyValues": [],
           "concept": {
-            "uuid": "1e2d41a2-5b6a-4ad7-ab91-51d3cdf122bd"
+            "uuid": "1638c1e1-3dc9-43e1-85c5-577ee6d0c3df"
           },
           "displayOrder": 4,
           "mandatory": true
         },
         {
-          "name": "Pulse rate",
-          "uuid": "5e3bb80d-f378-42c0-b47e-599708a78dd8",
+          "name": "Measure",
+          "uuid": "dd41fd10-e5b6-4239-9089-49cfc99a5305",
           "keyValues": [],
           "concept": {
-            "uuid": "2d3b8f90-6123-4dbf-b866-4f56ac7d24c8"
+            "uuid": "76c0bd04-73af-4bdf-846e-f194de5f3fe7"
           },
           "displayOrder": 5,
+          "mandatory": true
+        },
+        {
+          "name": "Measure",
+          "uuid": "4141e6bb-9133-49d1-a30a-7d70c609c3cd",
+          "keyValues": [],
+          "concept": {
+            "uuid": "5b39ae36-ba7f-4a65-b5c9-6f87e93437c7"
+          },
+          "displayOrder": 7,
+          "mandatory": true
+        },
+        {
+          "name": "Measure",
+          "uuid": "76d17630-7080-4207-aa83-703c0c42ea35",
+          "keyValues": [],
+          "concept": {
+            "uuid": "6beebfe3-ca9e-47f7-8ae6-bf6fee3c9d7c"
+          },
+          "displayOrder": 8,
           "mandatory": true
         }
       ]
     },
     {
-      "uuid": "1338827f-3979-4275-9a13-fdd0fc1c7d44",
+      "uuid": "26ac02d2-4177-4086-90e5-3c473c9c0c2d",
       "name": "Referral",
       "display": "Referral",
       "displayOrder": 2,
       "formElements": [
         {
           "name": "Refer",
-          "uuid": "96c94073-8eef-47ad-89fb-263fa6d32b5b",
+          "uuid": "0881f09d-2f57-49fc-b254-a763086d2e77",
           "type": "SingleSelect",
           "concept": {
             "uuid": "5e7b72bf-114f-45cf-abcd-11a6d0a67c12"
@@ -81,7 +101,7 @@
         },
         {
           "name": "Refer to",
-          "uuid": "3b74ee03-8937-4d65-9b00-4adbb3ab02ef",
+          "uuid": "1ba6a900-3886-44de-a79e-73421d943793",
           "type": "SingleSelect",
           "keyValues": [],
           "concept": {
@@ -92,7 +112,7 @@
         },
         {
           "name": "Remarks",
-          "uuid": "53f97923-4fcb-4917-8d14-699286798c05",
+          "uuid": "e9ff1ae4-d191-4c24-a7f9-b41a4da889d2",
           "keyValues": [],
           "concept": {
             "uuid": "df50366e-d1b3-4b82-b0eb-9d19b9c23692"
