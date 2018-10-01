@@ -483,7 +483,7 @@
     ]
   },
   {
-    "name": "Pain in breast or armpit",
+    "name": "Constant pain in breast or armpit",
     "uuid": "8e48f1b1-3bdd-46cf-8449-4472c879b804",
     "dataType": "Coded",
     "answers": [
@@ -1382,6 +1382,32 @@
   {
     "name": "LEEP done",
     "uuid": "a9d7ea42-134b-4daf-86d8-020efc20d938",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
+      },
+      {
+        "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
+      }
+    ]
+  },
+  {
+    "name": "Erosion of nipple",
+    "uuid": "c00db7c7-41e4-40fb-93a7-33fee6ef279c",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
+      },
+      {
+        "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
+      }
+    ]
+  },
+  {
+    "name": "Trained individual for self breast examination",
+    "uuid": "6ed5c896-df23-4a0f-851c-1d48985f7c41",
     "dataType": "Coded",
     "answers": [
       {

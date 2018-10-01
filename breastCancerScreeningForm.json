@@ -71,7 +71,7 @@
           "mandatory": true
         },
         {
-          "name": "Pain in breast or armpit",
+          "name": "Constant pain in breast or armpit",
           "uuid": "8f440939-92c3-4c41-9a84-21df51fda9f6",
           "type": "SingleSelect",
           "concept": {
@@ -101,13 +101,23 @@
           "mandatory": true
         },
         {
+          "name": "Erosion of nipple",
+          "uuid": "f4f6f915-73cf-4412-9b2c-3570b0ca01d6",
+          "type": "SingleSelect",
+          "concept": {
+            "uuid": "c00db7c7-41e4-40fb-93a7-33fee6ef279c"
+          },
+          "displayOrder": 10,
+          "mandatory": true
+        },
+        {
           "name": "Comments",
           "uuid": "47869b19-e1d4-4cef-b25c-bdf7d8ddc775",
           "keyValues": [],
           "concept": {
             "uuid": "1fbeef2a-09e3-4689-b994-a9ea3147809c"
           },
-          "displayOrder": 10,
+          "displayOrder": 11,
           "mandatory": false
         }
       ]
@@ -179,13 +189,23 @@
           "mandatory": true
         },
         {
+          "name": "Trained individual for self breast examination",
+          "uuid": "0c8ba62b-1fd3-4897-9ddd-5073a87609f9",
+          "type": "SingleSelect",
+          "concept": {
+            "uuid": "6ed5c896-df23-4a0f-851c-1d48985f7c41"
+          },
+          "displayOrder": 7,
+          "mandatory": true
+        },
+        {
           "name": "Comments",
           "uuid": "ff53d0be-0fa3-4615-b44d-c645b856ac92",
           "keyValues": [],
           "concept": {
             "uuid": "d42682da-49ac-4bce-a112-5426bfb78974"
           },
-          "displayOrder": 7,
+          "displayOrder": 8,
           "mandatory": false
         }
       ]
@@ -197,13 +217,37 @@
       "displayOrder": 3,
       "formElements": [
         {
+          "name": "Result of screening",
+          "uuid": "430c4873-f8b8-4969-a6f3-9f415d3cdfc7",
+          "type": "SingleSelect",
+          "keyValues": [],
+          "concept": {
+            "comment": "Result of breast cancer screening",
+            "uuid": "b6c6b6d5-9960-48ef-a230-9e28326a9492"
+          },
+          "displayOrder": 1,
+          "mandatory": true
+        },
+        {
           "name": "Refer to specialist",
           "uuid": "d36bd053-fbad-406a-84e1-c84779c28c18",
           "type": "SingleSelect",
           "concept": {
             "uuid": "0b1170d9-4ab7-48a3-81d6-468638818bba"
           },
-          "displayOrder": 1,
+          "displayOrder": -1,
+          "mandatory": true,
+          "voided": true
+        },
+        {
+          "name": "Refer to",
+          "uuid": "ad09608e-6deb-4def-a7fe-8287837e97c9",
+          "type": "SingleSelect",
+          "keyValues": [],
+          "concept": {
+            "uuid": "9f05b642-1cf6-47e7-92b5-17a5ee77ed39"
+          },
+          "displayOrder": 2,
           "mandatory": true
         },
         {
@@ -213,20 +257,8 @@
           "concept": {
             "uuid": "eaa0ef8f-f3b0-4260-9cbc-52d3fb3b4704"
           },
-          "displayOrder": 2,
-          "mandatory": false
-        },
-        {
-          "name": "Result of screening",
-          "uuid": "430c4873-f8b8-4969-a6f3-9f415d3cdfc7",
-          "type": "SingleSelect",
-          "keyValues": [],
-          "concept": {
-            "comment": "Result of breast cancer screening",
-            "uuid": "b6c6b6d5-9960-48ef-a230-9e28326a9492"
-          },
           "displayOrder": 3,
-          "mandatory": true
+          "mandatory": false
         }
       ]
     }
