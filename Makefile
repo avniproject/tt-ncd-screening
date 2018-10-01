@@ -45,6 +45,7 @@ deploy: ## Creates reference data by POSTing it to the server
 	$(call _curl,POST,forms,@hypertensionScreeningForm.json)
 	$(call _curl,POST,forms,@diabetesScreeningForm.json)
 	$(call _curl,POST,forms,@cervicalCancerReferralForm.json)
+	$(call _curl,POST,forms,@breastCancerReferralForm.json)
 	$(call _curl,POST,encounterTypes,@encounterTypes.json)
 	$(call _curl,POST,operationalEncounterTypes,@operationalModules/operationalEncounterTypes.json)
 	$(call _curl,POST,formMappings,@formMappings.json)

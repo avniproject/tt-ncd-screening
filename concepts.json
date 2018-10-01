@@ -1417,5 +1417,64 @@
         "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
       }
     ]
+  },
+  {
+    "uuid": "c43c79e8-4179-4cf3-a977-006fcf4aebbb",
+    "name": "Benign lump on USG/Mammography/Other Diagnostic Method"
+  },
+  {
+    "uuid": "a23a0e97-ff28-4f4d-a915-ad6792a45588",
+    "name": "Suspicious/Malignant lump on USG/Mammography/Other Diagnostic Method"
+  },
+  {
+    "uuid": "f996c8ac-172e-4c2d-aead-d1d00095dfa3",
+    "name": "Suspected Nipple Discharge"
+  },
+  {
+    "name": "Result of breast cancer evaluation",
+    "uuid": "61b91f44-9dfc-45b8-bcb7-e9acab4df6e4",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "c43c79e8-4179-4cf3-a977-006fcf4aebbb",
+        "abnormal": false
+      },
+      {
+        "uuid": "a23a0e97-ff28-4f4d-a915-ad6792a45588",
+        "abnormal": false
+      },
+      {
+        "uuid": "f996c8ac-172e-4c2d-aead-d1d00095dfa3",
+        "abnormal": false
+      }
+    ]
+  },
+  {
+    "uuid": "9cee29a6-62b1-4934-978d-547d6abfd0d5",
+    "name": "Benign"
+  },
+  {
+    "uuid": "6478aa00-6283-4c00-9eb2-8a830ec64afc",
+    "name": "Malignant"
+  },
+  {
+    "name": "Breast cancer evaluation",
+    "uuid": "5f90d0cc-a4f2-4920-9065-187056e8d0a7",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "9cee29a6-62b1-4934-978d-547d6abfd0d5",
+        "abnormal": false
+      },
+      {
+        "uuid": "6478aa00-6283-4c00-9eb2-8a830ec64afc",
+        "abnormal": false
+      }
+    ]
+  },
+  {
+    "name": "Referred to",
+    "uuid": "c494d775-c424-4e11-a37c-c826fdb09220",
+    "dataType": "Text"
   }
 ]

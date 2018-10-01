@@ -22,5 +22,9 @@
   {
     "uuid": "65f9c947-50d8-4eb6-82af-9be080aa2836",
     "name": "Cervical cancer referral"
+  },
+  {
+    "uuid": "65f9c947-50d8-4eb6-82af-9be080aa2836",
+    "name": "Breast cancer referral"
   }
 ]

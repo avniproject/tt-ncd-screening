@@ -42,6 +42,13 @@
       "encounterType": {
         "uuid": "65f9c947-50d8-4eb6-82af-9be080aa2836"
       }
+    },
+    {
+      "uuid": "883bd4e1-9b6f-470f-b6bb-07905125124b",
+      "name": "Breast cancer referral",
+      "encounterType": {
+        "uuid": "65f9c947-50d8-4eb6-82af-9be080aa2836"
+      }
     }
   ]
 }

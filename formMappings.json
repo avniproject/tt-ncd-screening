@@ -19,5 +19,30 @@
     "programUUID": null,
     "encounterTypeUUID": "7bbbec20-7963-4236-b1ad-dfcbcf0a4eb5",
     "comment": "-Oral cancer screening-TT Oral cancer screening form-Encounter"
+  },
+  {
+    "uuid": "2b979cfe-41e3-45cd-8b61-c6304975e422",
+    "formUUID": "c35048db-4dcc-4f84-933b-c974caf8976b",
+    "encounterTypeUUID": "b3202ebd-48f1-4bf3-87e7-858087b950b6",
+    "programUUID": null,
+    "comment": "Hypertension screening"
+  },
+  {
+    "uuid": "6a0d74b9-d88e-435c-a71a-956f263e29a6",
+    "formUUID": "01ac5ce7-9b2d-46e9-a235-147441fa8059",
+    "encounterTypeUUID": "2c57ad25-f6e7-4895-92a5-c9a6eeb045f1",
+    "comment": "Diabetes screening"
+  },
+  {
+    "uuid": "b49702c5-ffcb-4fd6-a44e-910d5a958f15",
+    "formUUID": "0124afcd-b832-4a8c-b34c-0da5b26d2fc6",
+    "encounterTypeUUID": "65f9c947-50d8-4eb6-82af-9be080aa2836",
+    "comment": "Cervical Referral"
+  },
+  {
+    "uuid": "b079d471-b3e9-46ee-8fad-9106563a2874",
+    "formUUID": "22192412-6937-455b-a885-1a80f343cc8f",
+    "encounterTypeUUID": "65f9c947-50d8-4eb6-82af-9be080aa2836",
+    "comment": "Breast Referral"
   }
 ]

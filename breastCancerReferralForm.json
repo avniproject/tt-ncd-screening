@@ -1,0 +1,102 @@
+{
+  "name": "Breast cancer referral form",
+  "uuid": "22192412-6937-455b-a885-1a80f343cc8f",
+  "formType": "Encounter",
+  "formElementGroups": [
+    {
+      "uuid": "e7e57b08-35f9-449d-80f1-624a57b36ea5",
+      "name": "Evaluation at Referred Site",
+      "display": "Evaluation at Referred Site",
+      "displayOrder": 1,
+      "formElements": [
+        {
+          "name": "Result of Evaluation",
+          "uuid": "a0b8e43c-0188-474c-9cfd-7c84f0d9ce18",
+          "keyValues": [],
+          "type": "MultiSelect",
+          "concept": {
+            "uuid": "61b91f44-9dfc-45b8-bcb7-e9acab4df6e4"
+          },
+          "displayOrder": 1,
+          "mandatory": true
+        },
+        {
+          "name": "Advise the patient for more frequent follow up as recommended by the surgeon",
+          "uuid": "6a4f31bb-aba5-4363-b3f7-69598e096c8a",
+          "keyValues": [],
+          "type": "SingleSelect",
+          "concept": {
+            "uuid": "b4e5a662-97bf-4846-b9b7-9baeab4d89c4"
+          },
+          "displayOrder": 2,
+          "mandatory": false
+        },
+        {
+          "name": "Patient has to be sent for Cytology or Excisional Biopsy, preferrably Core Biopsy. Otherwise, cytology with arrangement for sending to higher level for diagnosis",
+          "uuid": "6e02a67d-6782-4b33-ae7b-b08c7d54218f",
+          "keyValues": [],
+          "type": "SingleSelect",
+          "concept": {
+            "uuid": "b4e5a662-97bf-4846-b9b7-9baeab4d89c4"
+          },
+          "displayOrder": 3,
+          "mandatory": false
+        },
+        {
+          "name": "Result",
+          "uuid": "32f30127-9fa1-47b6-bf04-a7310b47eab7",
+          "keyValues": [],
+          "type": "SingleSelect",
+          "concept": {
+            "uuid": "5f90d0cc-a4f2-4920-9065-187056e8d0a7"
+          },
+          "displayOrder": 4,
+          "mandatory": true
+        },
+        {
+          "name": "Advise the patient for more frequent follow up as recommended by the surgeon",
+          "uuid": "90510bd3-2eed-45c2-ba61-ec64c89c93e9",
+          "keyValues": [],
+          "type": "SingleSelect",
+          "concept": {
+            "uuid": "b4e5a662-97bf-4846-b9b7-9baeab4d89c4"
+          },
+          "displayOrder": 5,
+          "mandatory": false
+        },
+        {
+          "name": "Refer to medical college or RCC for staging and treatment as per standard guidelines",
+          "uuid": "63f2ff02-35e9-49f7-9790-6774654d3d62",
+          "keyValues": [],
+          "type": "SingleSelect",
+          "concept": {
+            "uuid": "b4e5a662-97bf-4846-b9b7-9baeab4d89c4"
+          },
+          "displayOrder": 6,
+          "mandatory": false
+        },
+        {
+          "name": "Refer to",
+          "uuid": "750b28f9-33aa-4466-afc1-0cdb282cf666",
+          "keyValues": [],
+          "concept": {
+            "uuid": "c494d775-c424-4e11-a37c-c826fdb09220"
+          },
+          "displayOrder": 7,
+          "mandatory": true
+        },
+        {
+          "name": "Patient has to be sent for Cytology or Excisional Biopsy, preferrably Core Biopsy. Otherwise, cytology with arrangement for sending to higher level for diagnosis",
+          "uuid": "1db6cd28-6976-4c43-9ecd-4d634d9d9db9",
+          "keyValues": [],
+          "type": "SingleSelect",
+          "concept": {
+            "uuid": "b4e5a662-97bf-4846-b9b7-9baeab4d89c4"
+          },
+          "displayOrder": 8,
+          "mandatory": false
+        }
+      ]
+    }
+  ]
+}
