@@ -21,7 +21,7 @@
           "mandatory": true
         },
         {
-          "name": "Vaginal bleeding between periods",
+          "name": "Excessive bleeding during periods",
           "uuid": "f8a03bb9-0ff7-496a-a482-18d3b4e8e3a1",
           "type": "SingleSelect",
           "concept": {
@@ -51,7 +51,7 @@
           "mandatory": true
         },
         {
-          "name": "Smelly vaginal discharge",
+          "name": "Excessive foul smelling vaginal discharge",
           "uuid": "f4c99af4-d719-4e63-8502-c04d9a5c9138",
           "type": "SingleSelect",
           "concept": {
@@ -84,8 +84,8 @@
     },
     {
       "uuid": "d0e3a7a4-7864-4d65-8fa0-9a7b414510fa",
-      "name": "Visual examination",
-      "display": "Visual examination",
+      "name": "Cervical examination",
+      "display": "Cervical examination",
       "displayOrder": 2,
       "formElements": [
         {
@@ -99,7 +99,7 @@
           "mandatory": true
         },
         {
-          "name": "Ectopy",
+          "name": "Ectopy (Erosion)",
           "uuid": "4fb164c7-c2ff-4033-ac87-46fdbef08ef4",
           "type": "SingleSelect",
           "concept": {
@@ -169,6 +169,16 @@
           "mandatory": true
         },
         {
+          "name": "Excessive Discharge",
+          "uuid": "37ce02d1-9c9c-4f01-bda7-a9b6bbcbd2b6",
+          "keyValues": [],
+          "concept": {
+            "uuid": "c99a888d-35fc-45b9-9fdf-3dd7bf693e65"
+          },
+          "displayOrder": 8.1,
+          "mandatory": true
+        },
+        {
           "name": "Comments",
           "uuid": "7ec19cdc-0563-42c8-93d3-0faa8eb7c172",
           "keyValues": [],
@@ -187,13 +197,47 @@
       "displayOrder": 3,
       "formElements": [
         {
+          "name": "Result of screening",
+          "uuid": "df8d48cf-e0c2-4e07-a9fc-5d6bfacd39d1",
+          "type": "SingleSelect",
+          "keyValues": [],
+          "concept": {
+            "comment": "Result of cervical cancer screening",
+            "uuid": "83825284-e28e-41a9-b4a5-d1692c9a2626"
+          },
+          "displayOrder": 1,
+          "mandatory": true
+        },
+        {
           "name": "Refer to specialist",
           "uuid": "0cf33d7d-d607-4871-8732-8c1ebc80dab4",
           "type": "SingleSelect",
           "concept": {
             "uuid": "62ee3416-bb1a-41f4-9106-54290b401fca"
           },
-          "displayOrder": 1,
+          "displayOrder": -1,
+          "mandatory": true,
+          "voided": true
+        },
+        {
+          "name": "Refer to",
+          "uuid": "013cd927-8880-4f03-814f-5a147ab6998b",
+          "type": "SingleSelect",
+          "keyValues": [],
+          "concept": {
+            "uuid": "9f05b642-1cf6-47e7-92b5-17a5ee77ed39"
+          },
+          "displayOrder": 2,
+          "mandatory": true
+        },
+        {
+          "name": "Tertiary care centre name",
+          "uuid": "0678566e-a3c4-44be-9cc3-804f4377c783",
+          "keyValues": [],
+          "concept": {
+            "uuid": "9f345a74-51d6-409c-a4c1-4b5a53ba0b63"
+          },
+          "displayOrder": 3,
           "mandatory": true
         },
         {
@@ -203,20 +247,8 @@
           "concept": {
             "uuid": "d6bb59c7-8d46-4649-8a3f-5948709a59ae"
           },
-          "displayOrder": 2,
+          "displayOrder": 4,
           "mandatory": false
-        },
-        {
-          "name": "Result of screening",
-          "uuid": "df8d48cf-e0c2-4e07-a9fc-5d6bfacd39d1",
-          "type": "SingleSelect",
-          "keyValues": [],
-          "concept": {
-            "comment": "Result of cervical cancer screening",
-            "uuid": "83825284-e28e-41a9-b4a5-d1692c9a2626"
-          },
-          "displayOrder": 3,
-          "mandatory": true
         }
       ]
     }

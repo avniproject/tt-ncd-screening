@@ -111,13 +111,23 @@
           "mandatory": true
         },
         {
+          "name": "Tertiary care centre name",
+          "uuid": "8a71cd13-21da-4364-afe5-8db2f1c2d022",
+          "keyValues": [],
+          "concept": {
+            "uuid": "9f345a74-51d6-409c-a4c1-4b5a53ba0b63"
+          },
+          "displayOrder": 3,
+          "mandatory": true
+        },
+        {
           "name": "Remarks",
           "uuid": "e9ff1ae4-d191-4c24-a7f9-b41a4da889d2",
           "keyValues": [],
           "concept": {
             "uuid": "df50366e-d1b3-4b82-b0eb-9d19b9c23692"
           },
-          "displayOrder": 3,
+          "displayOrder": 4,
           "mandatory": false
         }
       ]

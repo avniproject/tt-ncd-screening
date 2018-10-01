@@ -587,7 +587,7 @@
     ]
   },
   {
-    "name": "Vaginal bleeding between periods",
+    "name": "Excessive bleeding during periods",
     "uuid": "b3fc9c2a-a182-4a19-856f-51bd4818f3ef",
     "dataType": "Coded",
     "answers": [
@@ -626,7 +626,7 @@
     ]
   },
   {
-    "name": "Smelly vaginal discharge",
+    "name": "Excessive foul smelling vaginal discharge",
     "uuid": "1ce2f3d0-31a7-4ae2-aaa3-2f13c5d929c9",
     "dataType": "Coded",
     "answers": [
@@ -670,7 +670,7 @@
     ]
   },
   {
-    "name": "Ectopy",
+    "name": "Ectopy (Erosion)",
     "uuid": "ba22e695-af54-463b-9674-2ba5f68a72f1",
     "dataType": "Coded",
     "answers": [
@@ -1299,5 +1299,23 @@
         "abnormal": false
       }
     ]
+  },
+  {
+    "name": "Excessive cervical discharge",
+    "uuid": "c99a888d-35fc-45b9-9fdf-3dd7bf693e65",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
+      },
+      {
+        "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
+      }
+    ]
+  },
+  {
+    "name": "Tertiary care centre name",
+    "uuid": "9f345a74-51d6-409c-a4c1-4b5a53ba0b63",
+    "dataType": "Text"
   }
 ]
