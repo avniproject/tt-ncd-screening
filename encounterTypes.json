@@ -18,5 +18,9 @@
   {
     "uuid": "2c57ad25-f6e7-4895-92a5-c9a6eeb045f1",
     "name": "Diabetes screening"
+  },
+  {
+    "uuid": "65f9c947-50d8-4eb6-82af-9be080aa2836",
+    "name": "Cervical cancer referral"
   }
 ]

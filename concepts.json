@@ -1317,5 +1317,79 @@
     "name": "Tertiary care centre name",
     "uuid": "9f345a74-51d6-409c-a4c1-4b5a53ba0b63",
     "dataType": "Text"
+  },
+  {
+    "name": "Lesions eligible for cyrotherapy",
+    "uuid": "ccbf0dce-8503-4823-bb6c-8e8ce8ff533a",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
+      },
+      {
+        "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
+      }
+    ]
+  },
+  {
+    "name": "Cyrotherapy done",
+    "uuid": "61b15ca4-b37f-4bcd-b8ca-6cf1a7c07687",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
+      },
+      {
+        "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
+      }
+    ]
+  },
+  {
+    "uuid": "d262f859-a074-4ee0-bca5-554087a27360",
+    "name": "CIN grade 1"
+  },
+  {
+    "uuid": "76bd6666-706a-4447-aa30-f6418e80fd6f",
+    "name": "CIN grade 2"
+  },
+  {
+    "uuid": "12b17407-9aa3-4068-ae87-735f517bc84e",
+    "name": "CIN grade 3"
+  },
+  {
+    "name": "CIN grade",
+    "uuid": "df1e2298-fa92-414d-8f5b-ef5710ca4e59",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "d262f859-a074-4ee0-bca5-554087a27360",
+        "abnormal": false
+      },
+      {
+        "uuid": "76bd6666-706a-4447-aa30-f6418e80fd6f",
+        "abnormal": false
+      },
+      {
+        "uuid": "12b17407-9aa3-4068-ae87-735f517bc84e",
+        "abnormal": false
+      },
+      {
+        "uuid": "e8480835-eca9-44ff-920c-dd0c909a4492",
+        "abnormal": true
+      }
+    ]
+  },
+  {
+    "name": "LEEP done",
+    "uuid": "a9d7ea42-134b-4daf-86d8-020efc20d938",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
+      },
+      {
+        "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
+      }
+    ]
   }
 ]

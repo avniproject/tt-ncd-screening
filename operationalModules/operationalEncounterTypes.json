@@ -35,6 +35,13 @@
       "encounterType": {
         "uuid": "2c57ad25-f6e7-4895-92a5-c9a6eeb045f1"
       }
+    },
+    {
+      "uuid": "73a2b944-7cbe-4de8-8814-71317b67cd1d",
+      "name": "Cervical cancer referral",
+      "encounterType": {
+        "uuid": "65f9c947-50d8-4eb6-82af-9be080aa2836"
+      }
     }
   ]
 }

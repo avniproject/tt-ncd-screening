@@ -1,0 +1,88 @@
+{
+  "name": "Cervical Cancer Referral Form",
+  "uuid": "0124afcd-b832-4a8c-b34c-0da5b26d2fc6",
+  "formType": "Encounter",
+  "formElementGroups": [
+    {
+      "uuid": "87bfb744-178b-4027-9dad-379e47d7add5",
+      "name": "Evaluation",
+      "display": "Evaluation",
+      "displayOrder": 1,
+      "formElements": [
+        {
+          "name": "Lesions Eligible for Cryotherapy",
+          "uuid": "ed33c491-9d8d-4789-a57a-261dbb0f7493",
+          "type": "SingleSelect",
+          "concept": {
+            "uuid": "ccbf0dce-8503-4823-bb6c-8e8ce8ff533a"
+          },
+          "displayOrder": 1,
+          "mandatory": true
+        },
+        {
+          "name": "Cryotherapy Done?",
+          "uuid": "92b5e254-34ef-4ec7-85a7-dcd2b43470d6",
+          "type": "SingleSelect",
+          "concept": {
+            "uuid": "61b15ca4-b37f-4bcd-b8ca-6cf1a7c07687"
+          },
+          "displayOrder": 2,
+          "mandatory": true
+        },
+        {
+          "name": "Please do cyrotherapy within next 2 weeks",
+          "uuid": "c1bf253c-87a7-42b7-bcc2-17987e07d79e",
+          "keyValues": [],
+          "type": "SingleSelect",
+          "concept": {
+            "uuid": "b4e5a662-97bf-4846-b9b7-9baeab4d89c4"
+          },
+          "displayOrder": 3,
+          "mandatory": false
+        },
+        {
+          "name": "CIN Grade",
+          "uuid": "e59ab2aa-53e7-468c-a182-4917f181882a",
+          "keyValues": [],
+          "type": "SingleSelect",
+          "concept": {
+            "uuid": "df1e2298-fa92-414d-8f5b-ef5710ca4e59"
+          },
+          "displayOrder": 4,
+          "mandatory": true
+        },
+        {
+          "name": "LEEP Done?",
+          "uuid": "efab29ec-aeb0-44d1-b230-0fc38cfbb7aa",
+          "type": "SingleSelect",
+          "concept": {
+            "uuid": "a9d7ea42-134b-4daf-86d8-020efc20d938"
+          },
+          "displayOrder": 5,
+          "mandatory": true
+        },
+        {
+          "name": "Advise the Patient for follow-up after 1 year with VIA",
+          "uuid": "25c174d0-c3fa-4f21-8f25-a842fb6c30f1",
+          "keyValues": [],
+          "type": "SingleSelect",
+          "concept": {
+            "uuid": "b4e5a662-97bf-4846-b9b7-9baeab4d89c4"
+          },
+          "displayOrder": 6,
+          "mandatory": false
+        },
+        {
+          "name": "Name of Tertiary Cancer Center",
+          "uuid": "7abe6d5c-7ac1-4e07-98eb-3142db48e054",
+          "keyValues": [],
+          "concept": {
+            "uuid": "9f345a74-51d6-409c-a4c1-4b5a53ba0b63"
+          },
+          "displayOrder": 7,
+          "mandatory": false
+        }
+      ]
+    }
+  ]
+}
