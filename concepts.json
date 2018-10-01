@@ -1476,5 +1476,72 @@
     "name": "Referred to",
     "uuid": "c494d775-c424-4e11-a37c-c826fdb09220",
     "dataType": "Text"
+  },
+  {
+    "uuid": "4014b0ac-db6e-48b3-9830-faae996ae36a",
+    "name": "Potentially Malignant Lesion"
+  },
+  {
+    "uuid": "bb1967ed-eb09-4080-a4d6-55ef775a6c97",
+    "name": "Suspected Oral Cancer"
+  },
+  {
+    "uuid": "a752b938-97d6-4124-82dc-90be849c4d52",
+    "name": "Clinically Diagnosed Oral Cancer"
+  },
+  {
+    "name": "Oral cancer evaluation result",
+    "uuid": "a8d52925-f979-4885-b165-77c31f520213",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "4014b0ac-db6e-48b3-9830-faae996ae36a",
+        "abnormal": false
+      },
+      {
+        "uuid": "bb1967ed-eb09-4080-a4d6-55ef775a6c97",
+        "abnormal": false
+      },
+      {
+        "uuid": "a752b938-97d6-4124-82dc-90be849c4d52",
+        "abnormal": false
+      }
+    ]
+  },
+  {
+    "uuid": "1af94072-9f75-4f5e-8d9a-2d653e5075ef",
+    "name": "Non dysplastic"
+  },
+  {
+    "uuid": "4aa638a8-50c5-481d-90bb-17cc649a6bac",
+    "name": "Dysplastic and needs Surgical Intervention"
+  },
+  {
+    "name": "Result of oral examinations",
+    "uuid": "21fbeadb-237c-461a-9550-38130841b232",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "1af94072-9f75-4f5e-8d9a-2d653e5075ef",
+        "abnormal": false
+      },
+      {
+        "uuid": "4aa638a8-50c5-481d-90bb-17cc649a6bac",
+        "abnormal": false
+      }
+    ]
+  },
+  {
+    "name": "Growth of recent origin",
+    "uuid": "493969d4-460b-424f-a6b6-a31284cf9750",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
+      },
+      {
+        "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
+      }
+    ]
   }
 ]

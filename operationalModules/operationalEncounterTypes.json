@@ -49,6 +49,13 @@
       "encounterType": {
         "uuid": "65f9c947-50d8-4eb6-82af-9be080aa2836"
       }
+    },
+    {
+      "uuid": "ac7f06c1-4bb0-401b-8222-17d7a8e7f839",
+      "name": "Oral cancer referral",
+      "encounterType": {
+        "uuid": "069e25b7-96a2-4534-b655-5b7a6cbe9443"
+      }
     }
   ]
 }

@@ -44,5 +44,11 @@
     "formUUID": "22192412-6937-455b-a885-1a80f343cc8f",
     "encounterTypeUUID": "65f9c947-50d8-4eb6-82af-9be080aa2836",
     "comment": "Breast Referral"
+  },
+  {
+    "uuid": "010cf074-dbf3-42c9-9d1a-332519551a73",
+    "formUUID": "5572299a-2cf0-4d0d-abf6-f43ea93f4b17",
+    "encounterTypeUUID": "069e25b7-96a2-4534-b655-5b7a6cbe9443",
+    "comment": "Oral cancer referral"
   }
 ]

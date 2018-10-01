@@ -81,7 +81,7 @@
           "mandatory": true
         },
         {
-          "name": "Change in voice",
+          "name": "Change in voice/hoarseness",
           "uuid": "cbd7f0c1-4e81-4b08-898e-f9acc8db262d",
           "type": "SingleSelect",
           "concept": {
@@ -327,13 +327,23 @@
           "mandatory": true
         },
         {
+          "name": "Growth of Recent Origin",
+          "uuid": "1f9bbade-2167-4cd9-8ff6-d42cdd22d7ce",
+          "type": "SingleSelect",
+          "concept": {
+            "uuid": "493969d4-460b-424f-a6b6-a31284cf9750"
+          },
+          "displayOrder": 6,
+          "mandatory": true
+        },
+        {
           "name": "Smokers palate",
           "uuid": "a9734545-0737-45c1-adbe-32d27ef1f3cf",
           "type": "SingleSelect",
           "concept": {
             "uuid": "576fdbe8-1fc2-47ea-9333-9942b3f26bb3"
           },
-          "displayOrder": 6,
+          "displayOrder": 7,
           "mandatory": true
         },
         {
@@ -343,7 +353,7 @@
           "concept": {
             "uuid": "b9a3739a-1665-42be-a800-80f8e99cb906"
           },
-          "displayOrder": 7,
+          "displayOrder": 8,
           "mandatory": true
         },
         {
@@ -353,7 +363,7 @@
           "concept": {
             "uuid": "d2209f91-56ea-4d3b-b7ed-8e05a9a6ab0a"
           },
-          "displayOrder": 8,
+          "displayOrder": 9,
           "mandatory": true
         },
         {
@@ -363,7 +373,7 @@
           "concept": {
             "uuid": "004fdcec-fcef-44e5-af5e-94edbb13b295"
           },
-          "displayOrder": 9,
+          "displayOrder": 10,
           "mandatory": true
         },
         {
@@ -373,7 +383,7 @@
           "concept": {
             "uuid": "d0015bb1-39dd-41ee-87c6-2348a23b2a19"
           },
-          "displayOrder": 10,
+          "displayOrder": 11,
           "mandatory": false
         }
       ]

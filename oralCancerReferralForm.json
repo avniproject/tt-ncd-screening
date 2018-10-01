@@ -1,0 +1,103 @@
+{
+  "name": "Oral cancer referral form",
+  "uuid": "5572299a-2cf0-4d0d-abf6-f43ea93f4b17",
+  "formType": "Encounter",
+  "formElementGroups": [
+    {
+      "uuid": "ec176ed7-1021-446c-af9b-ef6e35c5ad5a",
+      "name": "Evaluation",
+      "display": "Evaluation",
+      "displayOrder": 1,
+      "formElements": [
+        {
+          "name": "Result of Evaluation",
+          "uuid": "1c81ce9f-e230-4fb5-b6ed-fcc316420302",
+          "keyValues": [],
+          "type": "SingleSelect",
+          "concept": {
+            "uuid": "a8d52925-f979-4885-b165-77c31f520213"
+          },
+          "displayOrder": 1,
+          "mandatory": true
+        },
+        {
+          "name": "Elimination of Etiological factors and Tobacco Cessation",
+          "uuid": "7944c9f3-0fb7-4084-a85b-cd90c7f06691",
+          "keyValues": [],
+          "type": "SingleSelect",
+          "concept": {
+            "uuid": "b4e5a662-97bf-4846-b9b7-9baeab4d89c4"
+          },
+          "displayOrder": 2,
+          "mandatory": false
+        },
+        {
+          "name": "Detailed Intraoral Examination and biopsy (if required) Histo-pathological reporting. Intervention will be decided based on the presence of dysplasia",
+          "uuid": "56d7a0ab-6054-40cd-970d-38604e7bfb93",
+          "keyValues": [],
+          "type": "SingleSelect",
+          "concept": {
+            "uuid": "b4e5a662-97bf-4846-b9b7-9baeab4d89c4"
+          },
+          "displayOrder": 3,
+          "mandatory": false
+        },
+
+        {
+          "name": "The patient will be subjected to Reinforced Counseling and Follow up and Monitoring",
+          "uuid": "62a73606-98be-4037-8cc0-2614ca8b1897",
+          "keyValues": [],
+          "type": "SingleSelect",
+          "concept": {
+            "uuid": "b4e5a662-97bf-4846-b9b7-9baeab4d89c4"
+          },
+          "displayOrder": 4,
+          "mandatory": false
+        },
+        {
+          "name": "Refer to Tertiary Cancer Care Centres/Medical Colleges",
+          "uuid": "e99316ea-cae0-4703-810b-f42eb1d64a4c",
+          "keyValues": [],
+          "type": "SingleSelect",
+          "concept": {
+            "uuid": "b4e5a662-97bf-4846-b9b7-9baeab4d89c4"
+          },
+          "displayOrder": 5,
+          "mandatory": false
+        },
+        {
+          "name": "Detailed Intraoral Examination and biopsy (if required) Histo-pathological reporting. Intervention will be decided based on the presence of dysplasia",
+          "uuid": "8ba79507-8dfe-4ca5-8c8a-a827485a1711",
+          "keyValues": [],
+          "type": "SingleSelect",
+          "concept": {
+            "uuid": "b4e5a662-97bf-4846-b9b7-9baeab4d89c4"
+          },
+          "displayOrder": 6,
+          "mandatory": false
+        },
+        {
+          "name": "Result of Examinations",
+          "uuid": "d7bcf83c-318b-4b1b-81e8-eec6520bd042",
+          "keyValues": [],
+          "type": "SingleSelect",
+          "concept": {
+            "uuid": "21fbeadb-237c-461a-9550-38130841b232"
+          },
+          "displayOrder": 7,
+          "mandatory": true
+        },
+        {
+          "name": "Refer to",
+          "uuid": "7860ff41-0e4f-4636-8c59-f745eb0d4f5e",
+          "keyValues": [],
+          "concept": {
+            "uuid": "c494d775-c424-4e11-a37c-c826fdb09220"
+          },
+          "displayOrder": 8,
+          "mandatory": true
+        }
+      ]
+    }
+  ]
+}
