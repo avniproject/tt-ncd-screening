@@ -33,8 +33,14 @@ su:=$(shell id -un)
 create_org:
 	psql -U$(su) openchs < create_organisation.sql
 
+deps:
+	npm i
+
+deploy_rules:
+	node index.js "$(server_url)" "$(token)"
+
 ## <refdata>
-deploy: ## Creates reference data by POSTing it to the server
+deploy: deploy_rules
 	$(call _curl,POST,locations,@locations.json)
 	$(call _curl,POST,catchments,@catchments.json)
 	$(call _curl,POST,concepts,@concepts.json)

@@ -73,13 +73,24 @@
           "mandatory": false
         },
         {
+          "name": "Advice patient to get LEEP done in next two weeks",
+          "uuid": "71fc7292-9447-436c-bee9-431694b65382",
+          "keyValues": [],
+          "type": "SingleSelect",
+          "concept": {
+            "uuid": "b4e5a662-97bf-4846-b9b7-9baeab4d89c4"
+          },
+          "displayOrder": 7,
+          "mandatory": false
+        },
+        {
           "name": "Name of Tertiary Cancer Center",
           "uuid": "7abe6d5c-7ac1-4e07-98eb-3142db48e054",
           "keyValues": [],
           "concept": {
             "uuid": "9f345a74-51d6-409c-a4c1-4b5a53ba0b63"
           },
-          "displayOrder": 7,
+          "displayOrder": 8,
           "mandatory": false
         }
       ]
