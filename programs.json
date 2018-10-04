@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Breast cancer screening",
+    "uuid": "eb220ce8-2b3a-4a4e-a6f7-bc3a175b94ae",
+    "colour": "blueviolet"
+  },
+  {
+    "name": "Cervical cancer screening",
+    "uuid": "7b1ce6ed-3ed0-41c1-9073-30b6fa05291f",
+    "colour": "green"
+  },
+  {
+    "name": "Oral cancer screening",
+    "uuid": "ac1cf58f-91b1-4f79-ae35-14fd465a3da4",
+    "colour": "orange"
+  },
+  {
+    "name": "Hypertension screening",
+    "uuid": "b43d2c2f-8a5b-4c70-8161-61808cb1e04a",
+    "colour": "red"
+  },
+  {
+    "name": "Diabetes",
+    "uuid": "0f93367e-820b-485e-9af4-a585ab292ff7",
+    "colour": "pink"
+  }
+]

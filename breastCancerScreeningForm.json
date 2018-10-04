@@ -1,7 +1,7 @@
 {
   "name": "TT Breast cancer screening form",
   "uuid": "ac69b647-d1fc-4c7a-bfae-9f2e7fa48592",
-  "formType": "Encounter",
+  "formType": "ProgramEnrolment",
   "userUUID": "5fed2907-df3a-4867-aef5-c87f4c78a31a",
   "formElementGroups": [
     {

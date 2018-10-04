@@ -1,7 +1,7 @@
 {
   "name": "Hypertension screening",
   "uuid": "c35048db-4dcc-4f84-933b-c974caf8976b",
-  "formType": "Encounter",
+  "formType": "ProgramEnrolment",
   "formElementGroups": [
     {
       "uuid": "5f69faf2-126c-4ed6-80d7-21b558481ab7",

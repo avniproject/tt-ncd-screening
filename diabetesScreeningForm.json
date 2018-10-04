@@ -1,7 +1,7 @@
 {
   "name": "Type 2 Diabetes Screening Form",
   "uuid": "01ac5ce7-9b2d-46e9-a235-147441fa8059",
-  "formType": "Encounter",
+  "formType": "ProgramEnrolment",
   "formElementGroups": [
     {
       "uuid": "8ad57dd0-eb4e-436a-9354-fd0df3ed4436",

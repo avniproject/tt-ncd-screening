@@ -43,6 +43,7 @@ deploy_rules:
 deploy: deploy_rules
 	$(call _curl,POST,locations,@locations.json)
 	$(call _curl,POST,catchments,@catchments.json)
+	$(call _curl,POST,programs,@programs.json)
 	$(call _curl,POST,concepts,@concepts.json)
 	$(call _curl,POST,forms,@registrationForm.json)
 	$(call _curl,POST,forms,@cervicalCancerScreeningForm.json)

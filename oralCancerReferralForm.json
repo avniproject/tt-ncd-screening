@@ -1,7 +1,7 @@
 {
   "name": "Oral cancer referral form",
   "uuid": "5572299a-2cf0-4d0d-abf6-f43ea93f4b17",
-  "formType": "Encounter",
+  "formType": "ProgramEnrolment",
   "formElementGroups": [
     {
       "uuid": "ec176ed7-1021-446c-af9b-ef6e35c5ad5a",
