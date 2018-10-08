@@ -3,10 +3,10 @@ const filter = RuleFactory('0124afcd-b832-4a8c-b34c-0da5b26d2fc6', 'ViewFilter')
 const RuleHelper = require('./RuleHelper');
 
 @filter('33de0a68-c265-49a6-94de-0d99d2873ca4', 'Doctor Visit Form Handler', 100.0)
-class CervicalCancernReferralFormStatus {
+class CervicalCancerReferralFormStatus {
     static exec(programEncounter, formElementGroup, today) {
         return FormElementsStatusHelper
-            .getFormElementsStatusesWithoutDefaults(new CervicalCancernReferralFormStatus(), programEncounter, formElementGroup, today);
+            .getFormElementsStatusesWithoutDefaults(new CervicalCancerReferralFormStatus(), programEncounter, formElementGroup, today);
     }
 
     cryotherapyDone(programEncounter, formElement) {
@@ -40,4 +40,4 @@ class CervicalCancernReferralFormStatus {
     }
 }
 
-module.exports = {DoctorVisitFormHandler: CervicalCancernReferralFormStatus};
+module.exports = {DoctorVisitFormHandler: CervicalCancerReferralFormStatus};

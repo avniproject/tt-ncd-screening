@@ -34,6 +34,7 @@
         {
           "name": "Test Used",
           "uuid": "81d0d77a-a885-4b7d-a480-2600c85bd7b3",
+          "type": "MultiSelect",
           "keyValues": [],
           "concept": {
             "uuid": "113a9751-63ae-4a35-941c-a43c70f683ba"
@@ -42,7 +43,7 @@
           "mandatory": true
         },
         {
-          "name": "Measure",
+          "name": "Random blood glucose/sugar",
           "uuid": "fb47199d-948a-49f0-ac4a-abf5ddbef972",
           "keyValues": [],
           "concept": {
@@ -52,7 +53,7 @@
           "mandatory": true
         },
         {
-          "name": "Measure",
+          "name": "Fasting blood glucose/sugar",
           "uuid": "dd41fd10-e5b6-4239-9089-49cfc99a5305",
           "keyValues": [],
           "concept": {
@@ -62,7 +63,18 @@
           "mandatory": true
         },
         {
-          "name": "Measure",
+          "name": "Postprandial Glucose Test",
+          "uuid": "4ada2f2b-110f-4a04-be29-abcd00e963e5",
+          "keyValues": [],
+          "type": "SingleSelect",
+          "concept": {
+            "uuid": "Postprandial glucose test type"
+          },
+          "displayOrder": 6,
+          "mandatory": true
+        },`
+        {
+          "name": "Oral glucose tolerance test",
           "uuid": "4141e6bb-9133-49d1-a30a-7d70c609c3cd",
           "keyValues": [],
           "concept": {
@@ -72,7 +84,7 @@
           "mandatory": true
         },
         {
-          "name": "Measure",
+          "name": "HBA1c",
           "uuid": "76d17630-7080-4207-aa83-703c0c42ea35",
           "keyValues": [],
           "concept": {
