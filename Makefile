@@ -39,8 +39,12 @@ deps:
 deploy_rules:
 	node index.js "$(server_url)" "$(token)"
 
+
 ## <refdata>
-deploy: deploy_rules
+deploy_subjects:
+	$(call _curl,POST,operationalSubjectTypes,@operationalModules/operationalSubjectTypes.json)
+
+deploy: deploy_subjects deploy_rules
 	$(call _curl,POST,locations,@locations.json)
 	$(call _curl,POST,catchments,@catchments.json)
 	$(call _curl,POST,programs,@programs.json)
