@@ -54,5 +54,11 @@
     "encounterTypeUUID": "069e25b7-96a2-4534-b655-5b7a6cbe9443",
     "programUUID": "ac1cf58f-91b1-4f79-ae35-14fd465a3da4",
     "comment": "Oral cancer referral"
+  },
+  {
+    "uuid": "7235ed45-13d1-4af0-ae26-8491068cd226",
+    "formUUID": "b0a39152-015b-43ee-ba0c-83743256bd57",
+    "subjectTypeUUID": "9f2af1f9-e150-4f8e-aad3-40bb7eb05aa3",
+    "comment": "Individual Registration"
   }
 ]
